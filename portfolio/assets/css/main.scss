@@ -1,0 +1,108 @@
+---
+---
+@import "bootstrap/bootstrap";
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.container-fluid {
+    height: 100%;
+    padding:0;
+}
+
+#row-primary {
+    height: 100%;
+}
+
+#nav-col {
+    display: flex;
+	flex-direction: column;
+    background-color: black;
+    border-right:1px solid #f7dba9;
+}
+
+#my-card {
+    margin: 15px;
+    border: none;
+    background-color: black;
+    text-align: center;
+    height:20%;
+}
+
+#my-card img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 50%;
+}
+
+#my-nav {
+    height:65%;
+}
+
+#my-nav div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#my-nav div ul li {
+    text-decoration: none;
+}
+
+#my-nav div ul li:last-child {
+    border-bottom: none;
+}
+
+#my-nav div ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding: 15px 15px;
+    color: #f7dba9;
+}
+
+#my-nav div ul li a:hover {
+    text-decoration: none;
+    background-color: #f7dba9;
+    color: black;
+}
+
+#my-nav div ul li ul li a {
+    padding-left: 35px;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size: 16px;
+}
+
+#content-col {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top:2%;
+}
+
+footer {
+    padding-left: 15px;
+    height:15%;
+}
+
+article {
+    border: 1px solid #f7dba9;
+    width: 80%;
+    margin:5% 10%;
+    padding: 20px;
+    color: #f7dba9;
+}
+
+article h1 {
+    text-align:center;
+    margin-bottom:35px;
+}
+
+article div {
+    text-align:left;
+}

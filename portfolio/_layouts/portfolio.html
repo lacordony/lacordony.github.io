@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  <body>
+    <div class="container-fluid">
+      <div class="row no-gutters" id="row-primary">
+        <div class="col-2" id="nav-col">
+        {% include navbar.html %}
+        {% include footer.html %}
+        </div>
+        <div class="col-10" id="content-col">
+          <h1>PORTFOLIO</h1>
+          {% if page.class == "folio" %}
+          {% include folio.html %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

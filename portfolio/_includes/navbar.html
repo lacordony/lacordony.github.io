@@ -1,0 +1,24 @@
+
+<div id="my-card">
+  <img src="{{ site.baseurl }}/assets/img/githubpp.jpg" alt="github-profile-picture">
+</div>
+
+<nav id="my-nav">
+  <div>
+      <ul>
+          <li>
+            <a href="/index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+          </li>
+          <li>
+            <a href="/portfolio.html"><i class="fa fa-book" aria-hidden="true"></i> Portfolio</a>
+            {% for post in site.posts %}
+            <ul>
+              <li><a href="{{ post.url }}" id="my-folio"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> {{ post.title }}</a></li>
+            </ul>
+            {% endfor %}
+          <li>
+            <a href="/about.html"><i class="fa fa-user-secret" aria-hidden="true"></i> About</a>
+          </li>
+      </ul>
+  </div>
+</nav>
