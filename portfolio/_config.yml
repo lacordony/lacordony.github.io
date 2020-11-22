@@ -7,10 +7,6 @@ twitter_username: G3orgiaLR
 github_username:  GeorgiaLR
 
 # Build settings
-theme: jekyll-theme-primer
-sass:
-  sass_dir: _sass
-  style: compressed
 plugins:
   - jekyll-feed
 
