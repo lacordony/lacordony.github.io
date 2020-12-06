@@ -3,8 +3,14 @@ layout: default
 ---
 <h1>PORTFOLIO</h1>
 <article>
-    <header>
-
-    </header>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ullam maxime velit dolorem corporis eaque quisquam quam, eveniet ea quidem sapiente nesciunt porro labore sint, saepe esse excepturi delectus itaque!</p>
+    <div>
+        <p>I will publish only the "presentable" projects (not necesary finished but meaningfull). </p>
+        <p>As a good developer, I love started a lot of new things and well you know some of them will never see the end (I try to make progress on that).</p>    
+            {% for post in site.posts %}
+            <ul>
+              <li><a href="{{ post.url }}" id="my-folio">{{ post.title }}</a></li>
+            </ul>
+            {% endfor %}
+        <p></p>
+    </div>
 </article>
