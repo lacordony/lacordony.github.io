@@ -14,11 +14,13 @@ visual6: assets/img/notepad/bn-screen6.PNG
 
 Standard notepad crud application
 
-First mobile project during classroom training to learn how to build a JS mobile app with Cordova / Phonegap
+First mobile project I realized during classroom training to learn how to build a JS mobile app with Phonegap Cordova
 
 
-Technologies : javaScript, jQuery, cordova
+#### Technologies 
 
-### More details
+javaScript, jQuery, cordova
+
+#### More details
 
 Source code : [Link](https://github.com/GeorgiaLR/BlocNotes)

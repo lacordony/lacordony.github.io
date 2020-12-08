@@ -11,18 +11,18 @@ visual5: assets/img/easyshop/easyshop-screen5.PNG
 ---
 ### Project
 
-First android project during classroom training
+First android project I realized during my classroom training
 
-The goal was to create a shopping list application : populate product list, create/update/delete shopping list
+The goal was to create a shopping list application : populate product list, create, update and delete shopping list
 
 Bonus : I added a "send list" functionality to send your list to your family or friends by email or social network
 
-
 You can't lose or forget your shopping list anymore !
 
+#### Technologies 
 
-Technologies : android, Cordova
+android, Cordova
 
-### More details
+#### More details
 
 Source code : [Link](https://github.com/GeorgiaLR/EasyShop)
