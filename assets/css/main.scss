@@ -34,7 +34,6 @@ h1 {
     border: none;
     background-color: black;
     text-align: center;
-    height:20%;
 }
 
 #my-card img {
@@ -45,7 +44,7 @@ h1 {
 }
 
 #my-nav {
-    height:65%;
+    height:70%;
 }
 
 #my-nav div ul {
@@ -90,11 +89,6 @@ h1 {
     flex-direction: column;
     text-align: center;
     padding-top:2%;
-}
-
-footer {
-    padding-left: 15px;
-    height:15%;
 }
 
 article {
@@ -189,5 +183,4 @@ article a:hover {
 
 .img-folio {
     width: 70%;
-    height:auto;
 }

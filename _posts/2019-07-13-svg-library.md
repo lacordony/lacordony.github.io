@@ -3,7 +3,10 @@ layout: portfolio
 title: 'SVG Library'
 class: folio
 identifier: svglib
-visual1: assets/img/wip.png
+visual1: assets/img/svglibrary/svg-screen1.PNG
+visual2: assets/img/svglibrary/svg-screen2.PNG
+visual3: assets/img/svglibrary/svg-screen3.PNG
+visual4: assets/img/svglibrary/svg-screen4.PNG
 ---
 ### Project
 
@@ -13,7 +16,8 @@ The technical specification was only JS and jQuery, no external libraries. Durin
 
 The business needs was to be able to draw some shapes on documents and attached them to notes in an approval process.
 
-You just have the front-part here, sorry if the visual is ugly they already had a front-end application, my job was just to provide them a library for the application.
+You just have the front-part here, sorry if the visual is ugly they already had a front-end application and a design, my job was just to provide them a library for the application. So I simulated an interface for my tests and to show how the library works. Fun fact, for the last screenshot, I used a screenshot from "This Is the Police" video game just to show you an example with a background behind. Really good game by the way.
+
 
 #### Technologies
 
@@ -23,4 +27,3 @@ Back end part is not on github but it was made with PHP / CodeIgniter and MongoD
 #### More details
 
 Source code : [Link](https://github.com/GeorgiaLR/LibrarySvg)
-
