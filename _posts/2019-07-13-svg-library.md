@@ -4,8 +4,8 @@ title: 'SVG Library'
 class: folio
 identifier: svglib
 visual1: assets/img/svglibrary/svg-screen1.PNG
-visual2: assets/img/svglibrary/svg-screen2.PNG
-visual3: assets/img/svglibrary/svg-screen3.PNG
+visual2: assets/img/svglibrary/svg-screen2.png
+visual3: assets/img/svglibrary/svg-screen3.png
 visual4: assets/img/svglibrary/svg-screen4.PNG
 ---
 ### Project
