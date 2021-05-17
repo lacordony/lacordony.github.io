@@ -10,7 +10,7 @@ html, body {
 }
 
 h1 {
-    color:rgb(248, 161, 47);
+    color:#69ace4;
 }
 
 .container-fluid {
@@ -26,7 +26,7 @@ h1 {
     display: flex;
 	flex-direction: column;
     background-color: black;
-    border-right:1px solid #f7d190;
+    border-right:1px solid #f5e5d0;
 }
 
 #my-card {
@@ -67,12 +67,12 @@ h1 {
     text-decoration: none;
     display: block;
     padding: 10px 15px;
-    color: #f7d190;
+    color: #f5e5d0;
 }
 
 #my-nav div ul li a:hover {
     text-decoration: none;
-    background-color: #c2aa80;
+    background-color: #f5e5d0;
     color: black;
 }
 
@@ -92,11 +92,11 @@ h1 {
 }
 
 article {
-    border: 1px solid #f7d190;
+    border: 1px solid #69ace4;
     width: 80%;
     margin:5% 10%;
     padding: 20px;
-    color: #f7d190;
+    color: #f5e5d0;
     border-radius: 5%;
 }
 
@@ -110,11 +110,11 @@ article div {
 }
 
 article a {
-    color: rgb(69, 134, 69);
+    color: #77adda;
 }
 
 article a:hover {
-    color: rgb(69, 134, 69);
+    color: #77adda;
 }
 
 @media screen and (min-width: 540px) {
@@ -125,12 +125,12 @@ article a:hover {
 
 #row-burger {
     background-color: black;
-    border-right:1px solid #f7d190;
+    border-right:1px solid #f5e5d0;
     margin: 0;
 }
 
 #my-burger {
-    color: #f7d190;
+    color: #f5e5d0;
 }
 
 #burger-content ul {
@@ -153,12 +153,12 @@ article a:hover {
     text-decoration: none;
     display: block;
     padding: 15px 15px;
-    color: #f7d190;
+    color: #f5e5d0;
 }
 
 #burger-content ul li a:hover {
     text-decoration: none;
-    background-color: #f7d190;
+    background-color: #77adda;
     color: black;
 }
 
