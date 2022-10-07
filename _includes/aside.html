@@ -1,23 +1,24 @@
 
 <aside id="sidebar">
+    <h2>MENU</h2>
+    <h3>Notes</h3>
 
-    {% if category == "notes" %}
-    <p>Liste des notes :</p>
-    {% for note in site.notes %}
+    {% for mynote in site.pages %}
+    {% if mynote.category == "notes" %}
     <ul>
-        <li><a href="{{ note.url }}" id="my-note">{{ note.title }}</a></li>
+        <li><a href="{{ mynote.url }}" id="my-note">{{ mynote.title }}</a></li>
     </ul>
-    {% endfor %}
     {% endif %}
+    {% endfor %}
 
-    {% if category == "portfolio" %}
-    <p>Liste des projets :</p>
-    {% for project in site.projects %}
+    <h3>Portfolio</h3>
+    {% for myproject in site.pages %}
+    {% if myproject.category == "portfolio" %}
     <ul>
-        <li><a href="{{ project.url }}" id="my-project">{{ project.title }}</a></li>
+        <li><a href="{{ myproject.url }}" id="my-project">{{ myproject.title }}</a></li>
     </ul>
-    {% endfor %}
     {% endif %}
+    {% endfor %}
 
     {% if site.show_downloads %}
     <a href="{{ site.github.zip_url }}" class="button">
