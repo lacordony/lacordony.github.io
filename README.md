@@ -12,14 +12,14 @@ Mais là encore il y'a tellement de choses à savoir ! Et impossible de tout ret
 
 Du coup c'est parti ? 
 
-- ["Oui, je veux faire du java avec toi !"](/les-notes-de-georgia.html)
+- ["Oui, je veux faire du java avec toi !"](https://GeorgiaLR.github.io/les-notes-de-georgia.html)
 - "Non, je passe"
 
 Ok, si tu veux pas faire de java, je peux peut-être te montrer d'autres trucs cool
 
 J'ai fait un petit portfolio des projets que j'avais fait pendant ma formation ça te dit ?
 
-- ["Oui, ça me dit bien le portfolio"](/portfolio.html)
+- ["Oui, ça me dit bien le portfolio"](https://GeorgiaLR.github.io/portfolio.html)
 - "Non, toujours pas"
 
 Ce n'est pas ce à quoi tu t'attendais ? Désolée si tu es un peu déçu(e)
