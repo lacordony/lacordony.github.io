@@ -3,21 +3,22 @@ layout: default
 category: portfolio
 title: 'Shopping List App'
 ---
-### Project
+### Le projet
 
-First android project I realized during my classroom training
+Premier projet mobile android que j'ai réalisé durant ma formation de reconversion.
 
-The goal was to create a shopping list application : populate product list, create, update and delete shopping list
+L'objectif était de créer une application pour faire sa liste de courses : créer une liste, ajouter des produits dans la liste. Un CRUD classique.
 
-Bonus : I added a "send list" functionality to send your list to your family or friends by email or social network
+J'y ai ajouté en bonus le fait de pouvoir envoyer une liste à quelqu'un (famille/amis) par mail ou sur les réseaux sociaux (messenger par exemple)
+Le pouvoir de délégation : "voilà la liste de courses have fun"
 
-You can't lose or forget your shopping list anymore !
+Fini le moment où on sort faire ses courses et qu'on se dit "mince j'ai oublié la liste à la maison"
 
-#### Technologies
+#### Ses technologies
 
 android, Cordova
 
-#### More details
+#### Le code
 
 Source code : [Link](https://github.com/GeorgiaLR/EasyShop)
 

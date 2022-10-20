@@ -3,23 +3,29 @@ layout: default
 category: portfolio
 title: 'SVG Library'
 ---
-### Project
+### Le projet
 
-It was a part of my traineeship project.  
-The company wanted a SVG library to replace their canvas library.  
-The technical specification was only JS and jQuery, no external libraries. During this traineeship I really felt like I was re-coding some Paint application (I hate geometry so hard).
+Ce projet faisait partie de mon stage de fin de formation.
 
-The business needs was to be able to draw some shapes on documents and attached them to notes in an approval process.
+L'entreprise voulait une librairie SVG pour remplacer sa librairie actuelle en Canvas qui contenait trop de limitations techniques.
 
-You just have the front-part here, sorry if the visual is ugly they already had a front-end application and a design, my job was just to provide them a library for the application. So I simulated an interface for my tests and to show how the library works. Fun fact, for the last screenshot, I used a screenshot from "This Is the Police" video game just to show you an example with a background behind. Really good game by the way.
+Les spec techniques étaient de n'utiliser que JS ou Jquery pas d'autres librairies externes. 
+J'ai vraiment eu l'impression de recoder Paint en toute franchise. Je déteste la géométrie, j'ai été servie !
+
+Le besoin métier était d'être capable de dessiner des formes sur des documents durant le circuit de validation. Ces formes étaient associées à des notes dans lesquelles on pouvait y ajouter des commentaires pour l'utilisateur suivant. Du genre "tiens il manque ça dans le cercle rouge".
+
+J'ai fait des screens sur une page HTML vierge car je ne pouvais pas screen l'application en elle-même, du coup le design n'est pas sexy mais ce n'était pas l'objectif.
+
+Fun fact : j'ai fait la dernière capture d'écran avec en background une image issue du jeu vidéo "This is the police", très bon jeu que je recommande.
+Essentiellement pour vous montrer ce que ça donne quand on met une image en background.
 
 
-#### Technologies
+#### Ses technologies
 
 html, javaScript, jQuery, svg  
-Back end part is not on github but it was made with PHP / CodeIgniter and MongoDB
+La partie back-end n'est pas partagée sur Github mais elle était faite en PHP / CodeIgniter and MongoDB
 
-#### More details
+#### Le code
 
 Source code : [Link](https://github.com/GeorgiaLR/LibrarySvg)
 

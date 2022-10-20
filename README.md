@@ -2,15 +2,17 @@
 
 Cette Github Page est un petit site vitrine qui me permettra de vous faire découvrir qui je suis en tant que développeuse.
 
-Reonvertie et curieuse j'ai tendance à aimer toucher à tout, sauf que j'ai très vite compris que s'éparpiller en tant que développeur n'était pas très efficace. On teste tout mais on ne maîtrise rien. Et en entretien, les questions sont de plus en plus pointues. Je me suis vite rendue compte que je devais plus me spécialiser pour pouvoir masteriser.
+Reconvertie et curieuse j'ai tendance à aimer toucher à tout, sauf que j'ai très vite compris que s'éparpiller en tant que développeur n'était pas très efficace. 
+On teste tout mais on ne maîtrise rien après j'ai le syndrome de l'imposteur qui se réveille. 
+Et surtout, en entretien, les questions sont de plus en plus pointues. Je me suis vite rendue compte que je devais plus me spécialiser pour pouvoir masteriser.
 
-Au début je voulais faire du full stack parce que c'était ce qui faisait rêver, réaliser des projets de A à Z... Je me suis vite rendue compte qu'il fallait déjà maitriser beaucoup de choses mais aussi que le front-end et surtout le CSS me rendait dingue. 
+Au début je voulais faire du full stack parce que c'était ce qui faisait rêver : réaliser des projets de A à Z, wahou ! En pratique il faut maitriser beaucoup de choses et j'ai fini par me rendre à l'évidence : le front-end et surtout le CSS me rendait dingue (oui le css de cette page n'a pas été fait par moi, c'est un thème Github Pages).
 
-J'ai alors choisi de m'orienter sur le back-end et en particulier autour de l'écosysteme Java.
+J'ai alors choisi de m'orienter sur le back-end et en particulier tout ce qui gravite autour de l'écosysteme Java.
+Mais là encore il y'a tellement de choses à savoir ! Et impossible de tout retenir. 
+Alors je me suis dis : quoi de mieux pour assimiler que d'essayer de l'expliquer ? C'est pas perdu.
 
-Mais là encore il y'a tellement de choses à savoir ! Et impossible de tout retenir. Alors je me suis dis : quoi de mieux pour assimiler que d'essayer de l'expliquer ? C'est pas perdu.
-
-Du coup c'est parti ? 
+Du coup c'est parti, je vous emmène ? 
 
 - ["Oui, je veux faire du java avec toi !"](https://GeorgiaLR.github.io/les-notes-de-georgia.html)
 - "Non, je passe"

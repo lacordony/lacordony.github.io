@@ -3,17 +3,17 @@ layout: default
 category: portfolio
 title: 'Basic Notepad App'
 ---
-### Project
+### Le projet
 
-Standard notepad crud application
+Application basique de bloc notes pour mobile (CRUD)
 
-First mobile project I realized during classroom training to learn how to build a JS mobile app with Phonegap Cordova
+C'est le premier projet mobile que j'ai réalisé durant ma formation de reconversion. L'objectif était de faire une application mobile en full JS et de la build avec Cordova via Android studio.
 
-#### Technologies
+#### Ses technologies
 
 javaScript, jQuery, cordova
 
-#### More details
+#### Le code
 
 Source code : [Link](https://github.com/GeorgiaLR/BlocNotes)
 
