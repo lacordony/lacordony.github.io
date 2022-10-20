@@ -72,9 +72,13 @@ Pour vérifier que l'on applique correctement ce principe on peut checker que l'
 Les modules de haut niveau ne devraient pas dépendre des modules de bas niveau. Les deux devraient dépendre des abstractions.
 Les abstractions ne devraient pas dépendre des détails. Les détails devraient dépendre des abstraction.
 
+C'est le dernier principe et celui que je trouve le plus complexe à assimiler.
 
+L'idée est de dire que l'on va privilégier des classes intermédiaires de type repository ou factory qui porteront les détails d'implémentation plutôt que d'aller instancier ou appeler directement les classes de bas niveau
 
-
+Ce principe est lié à d'autres concepts qui peuvent aider à le comprendre :
+* Injection de dépendances : consiste à injecter dans une classe ses dépendances afin de pouvoir passer la dépendance dans le constructeur de la classe plutôt que dans ses méthodes
+* Inversion de contrôle IOC : consiste à déléguer la gestion de l'instanciation et l'injection des dépendances, celle ci se fait en amont au démarrage de l'application. Par exemple avec Spring l'annotation @autowired permet au framework d'instancier et injecter directement la dépendance dans la classe
 
 ### Références de cette note :
 
