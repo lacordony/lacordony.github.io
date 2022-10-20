@@ -1,12 +1,19 @@
 
 <aside id="sidebar">
     <h2>MENU</h2>
+
+    <ul>
+        <li><a href="https://GeorgiaLR.github.io/">Page d'accueil</a></li>
+        <li><a href="https://GeorgiaLR.github.io/les-notes-de-georgia.html">Notes</a></li>
+        <li><a href="https://GeorgiaLR.github.io/portfolio.html">Portfolio</a></li>
+    </ul>
+
     <h3>Notes</h3>
 
     {% for mynote in site.pages %}
     {% if mynote.category == "notes" %}
     <ul>
-        <li><a href="{{ mynote.url }}" id="my-note">{{ mynote.title }}</a></li>
+        <li><a href="{{ mynote.url }}" class="my-note">{{ mynote.title }}</a></li>
     </ul>
     {% endif %}
     {% endfor %}
@@ -15,7 +22,7 @@
     {% for myproject in site.pages %}
     {% if myproject.category == "portfolio" %}
     <ul>
-        <li><a href="{{ myproject.url }}" id="my-project">{{ myproject.title }}</a></li>
+        <li><a href="{{ myproject.url }}" class="my-project">{{ myproject.title }}</a></li>
     </ul>
     {% endif %}
     {% endfor %}

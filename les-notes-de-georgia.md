@@ -1,6 +1,3 @@
----
-category: notes
----
 # LES NOTES DE GEORGIA
 
 Vous retrouverez dans le menu de droite la liste des notes disponibles.

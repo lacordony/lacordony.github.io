@@ -1,6 +1,3 @@
----
-category: portfolio
----
 # PORTFOLIO-OHOH
 
 Vous retrouverez dans le menu de droite la liste des projets disponibles.
