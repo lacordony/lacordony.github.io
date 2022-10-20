@@ -3,8 +3,6 @@
 
 @import "{{ site.theme }}";
 
-#myHeader {
-    position: relative;
-    width: 80%;
-    margin: 0 auto;
+#myTitle {
+    font-size: 14px;
 }
