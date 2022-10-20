@@ -3,21 +3,26 @@ layout: default
 category: portfolio
 title: 'Basic Notepad App'
 ---
-### Le projet
+
+# Bloc-notes
+
+## Le projet
+
+#### Contexte 
 
 Application basique de bloc notes pour mobile (CRUD)
 
 C'est le premier projet mobile que j'ai réalisé durant ma formation de reconversion. L'objectif était de faire une application mobile en full JS et de la build avec Cordova via Android studio.
 
-#### Ses technologies
+#### Technologies
 
 javaScript, jQuery, cordova
 
-#### Le code
+#### Code
 
 Source code : [Link](https://github.com/GeorgiaLR/BlocNotes)
 
-#### Screenshots
+## Screenshots
 
 ![Screen1](/assets/img/notepad/bn-screen1.PNG)
 ![Screen2](/assets/img/notepad/bn-screen2.PNG)

@@ -3,7 +3,12 @@ layout: default
 category: portfolio
 title: 'Shopping List App'
 ---
-### Le projet
+
+# Liste de courses
+
+## Le projet
+
+### Contexte
 
 Premier projet mobile android que j'ai réalisé durant ma formation de reconversion.
 
@@ -14,15 +19,15 @@ Le pouvoir de délégation : "voilà la liste de courses have fun"
 
 Fini le moment où on sort faire ses courses et qu'on se dit "mince j'ai oublié la liste à la maison"
 
-#### Ses technologies
+### Technologies
 
 android, Cordova
 
-#### Le code
+### Code
 
 Source code : [Link](https://github.com/GeorgiaLR/EasyShop)
 
-#### Screenshots
+## Screenshots
 
 ![Screen1](/assets/img/easyshop/easyshop-screen1.PNG)
 ![Screen2](/assets/img/easyshop/easyshop-screen2.PNG)

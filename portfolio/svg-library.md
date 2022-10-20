@@ -3,7 +3,12 @@ layout: default
 category: portfolio
 title: 'SVG Library'
 ---
-### Le projet
+
+# Librairie SVG
+
+## Le projet
+
+### Contexte
 
 Ce projet faisait partie de mon stage de fin de formation.
 
@@ -20,16 +25,16 @@ Fun fact : j'ai fait la dernière capture d'écran avec en background une image 
 Essentiellement pour vous montrer ce que ça donne quand on met une image en background.
 
 
-#### Ses technologies
+### Technologies
 
 html, javaScript, jQuery, svg  
 La partie back-end n'est pas partagée sur Github mais elle était faite en PHP / CodeIgniter and MongoDB
 
-#### Le code
+### Code
 
 Source code : [Link](https://github.com/GeorgiaLR/LibrarySvg)
 
-#### Screenshots
+## Screenshots
 
 ![Screen1](/assets/img/svglibrary/svg-screen1.PNG)
 
