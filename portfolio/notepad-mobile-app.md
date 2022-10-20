@@ -1,7 +1,7 @@
 ---
 layout: default
 category: portfolio
-title: 'Basic Notepad App'
+title: 'Bloc-notes'
 ---
 
 # Bloc-notes

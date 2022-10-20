@@ -1,3 +1,8 @@
+---
+layout: default
+category: notes
+title: "Principes SOLID"
+---
 
 # Principes SOLID
 

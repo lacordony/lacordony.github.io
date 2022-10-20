@@ -1,7 +1,7 @@
 ---
 layout: default
 category: portfolio
-title: 'Shopping List App'
+title: 'Liste de courses'
 ---
 
 # Liste de courses

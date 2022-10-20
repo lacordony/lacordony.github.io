@@ -1,7 +1,7 @@
 ---
 layout: default
 category: portfolio
-title: 'SVG Library'
+title: 'Librairie SVG'
 ---
 
 # Librairie SVG
