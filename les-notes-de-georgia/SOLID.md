@@ -6,6 +6,8 @@ title: "Principes SOLID"
 
 # Principes SOLID
 
+Pour écrire cette note je me suis basée principalement sur ce cours : [Udemy - SOLID Principles: Introducing Software Architecture & Design](https://www.udemy.com/course/solid-design/learn/lecture/15983704#overview)
+
 Les principes SOLID vous permettront d'avoir un logiciel bien conçu et robuste.
 
 
@@ -80,7 +82,3 @@ Ce principe est lié à d'autres concepts qui peuvent aider à le comprendre :
 * Injection de dépendances : consiste à injecter dans une classe ses dépendances afin de pouvoir passer la dépendance dans le constructeur de la classe plutôt que dans ses méthodes
 * Inversion de contrôle IOC : consiste à déléguer la gestion de l'instanciation et l'injection des dépendances, celle ci se fait en amont au démarrage de l'application. Par exemple avec Spring l'annotation @autowired permet au framework d'instancier et injecter directement la dépendance dans la classe
 
-### Références de cette note :
-
-* [Udemy - SOLID Principles: Introducing Software Architecture & Design](https://www.udemy.com/course/solid-design/learn/lecture/15983704#overview)
-* 
