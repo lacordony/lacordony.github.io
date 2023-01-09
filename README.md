@@ -8,15 +8,15 @@ On teste tout mais on ne maîtrise rien et on se sent vite submergés (syndrome 
 
 > "Je me suis vite rendue compte que je devais plus me spécialiser pour pouvoir masteriser"
 
-Quand j'ai commencé ma reconversion je voulais faire du full stack parce que c'était ce qui faisait rêver : réaliser des projets de A à Z, wahou ! 
+Quand j'ai commencé ma reconversion je voulais faire du <span class="keywords">fullstack</span> parce que c'était ce qui faisait rêver : réaliser des projets de A à Z, wahou ! 
 
-En pratique, il faut maitriser beaucoup de choses et j'ai fini par me rendre à l'évidence : le front-end et surtout le CSS me rend dingue. En plus, j'ai de moins en moins d'affinités avec le javascript.
+En pratique, il faut maitriser beaucoup de choses et j'ai fini par me rendre à l'évidence : le front-end et surtout le <span class="keywords">CSS</span> me rend dingue. En plus, j'ai de moins en moins d'affinités avec le javascript.
 
-J'ai alors choisi de m'orienter sur le back-end et en particulier tout ce qui gravite autour de l'écosysteme Java.
+J'ai alors choisi de m'orienter sur le back-end et en particulier tout ce qui gravite autour de l'écosysteme <span class="keywords">Java</span>.
 
 Mais là encore il y'a tellement de choses à savoir ! Et nos mémoires ne sont pas infaillibles. 
 
-> "Combien de fois je me suis dis : 'c'est quoi la syntaxe déjà ?'"
+> "Combien de fois je me suis dis : c'est quoi la syntaxe déjà ?"
 
 Alors je me suis dis : quoi de mieux pour assimiler que de prendre des notes et d'essayer d'expliquer ce que j'apprends ?
 
@@ -33,7 +33,7 @@ J'ai fait un petit portfolio des projets que j'avais fait pendant ma formation �
 - "Non, toujours pas"
 
 Ce n'est pas ce à quoi tu t'attendais ? Désolée si tu es un peu déçu(e)
-Si jamais tu veux parler d'autres choses, tu trouveras mon linkedin sur mon profil Github
+Si jamais tu veux parler d'autres choses, tu trouveras mon <span class="keywords">linkedin</span> sur mon profil Github
 
 Merci d'être passé(e) !
 

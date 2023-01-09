@@ -12,6 +12,17 @@ Dans cette note mon objectif sera de vous expliquer simplement ce qu'on ne m'ava
 
 ## Concept
 
+### Pourquoi Spring Batch ?
+
+Spring Batch est très pratique lorsque vous devez migrer ou transformer des données d'un format A vers un format B. 
+
+Via des étapes (steps), il va exécuter des tâches qui vont transformer vos données. 
+
+
+### Comment ça marche ?
+
+
+
 ## Item Reader
 
 ## Item Writer
