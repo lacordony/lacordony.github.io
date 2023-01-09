@@ -33,5 +33,6 @@ Source : https://tailwindcss.com/docs/guides/vite#vue
 
 Je ne vais pas vous faire un copier/coller de la documentation, vous retrouverez sur cette page la documentation, le tutoriel et des exemples.
 
-Je me contenterais dans cette rubrique de 
+Je me contenterais dans cette rubrique de vous donner quelques exemples 
+
 ## Déploiement avec Git et Netlify
