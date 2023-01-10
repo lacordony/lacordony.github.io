@@ -1,3 +1,0 @@
-# Thymeleaf
-
-See you soon

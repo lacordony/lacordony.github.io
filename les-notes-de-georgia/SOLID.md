@@ -15,10 +15,10 @@ Les principes SOLID vous permettront d'avoir un logiciel bien conçu et robuste.
 
 Chaque composant logiciel (classe, méthode, module) devrait avoir une et une seule responsabilité
 
-Par exemple : un couteau suisse ne respecte pas ce principe car il dispose de multiples fonctionnalités, alors qu'un couteau simple n'a que pour fonction de couper.
+Par exemple, un couteau suisse ne respecte pas ce principe car il dispose de multiples fonctionnalités, alors qu'un couteau simple n'a que pour fonction de couper.
 
 Ce principe regroupe plusieurs notions :
-* Cohésion : à quel degré les différents composants du sofware sont liés ?
+* Cohésion : à quel degré les différents composants du software sont liés ?
 Ex : si dans une classe avec plusieurs méthodes, certaines méthodes ne sont pas étroitement liées (finalités différentes) il vaut mieux les séparer dans 2 classes différentes qui leur donneront plus de sens.
 
 * Couplage : quel est le niveau d’interdépendance entre différents composants du software ?
@@ -27,15 +27,17 @@ A la place, on utilisera une classe repository qui aura la responsabilité de la
 
 * Raison de changer : Chaque composant logiciel devrait avoir une et une seule raison de changer
 
+L'architecture MVC respecte le principe S car les responsabilités sont partagées entre le modèle, la vue et le contrôleur.
+
 ## O - Open Closed principle (Ouvert Fermé)
 
-Un composant logiciel peut être ouvert et fermé en même temps.
+Un composant logiciel peut être ouvert et fermé en même temps. Une classe doit être ouverte à l'extension, mais fermée à la modification.
 
 Par exemple : une console de jeu est fermée pour modification mais ouverte à des extensions (accessoires, manettes)
 
 La solution pour répondre à ce principe peut-être de créer une interface permettant d’ajouter des implémentations sans impacter les autres dépendances
 
-Il doit être facile d’ajouter de nouvelles fonctionnalités et des les ajouter sans ajouter de bugs et devoir faire de larges TNR
+Il doit être facile d’ajouter de nouvelles fonctionnalités et de les ajouter sans ajouter de bugs et devoir faire de larges TNR
 
 
 ## L - Liskov substitution Principle LSP (Principe de substitution de Liskov)
@@ -50,7 +52,7 @@ Par exemple : Au premier abord une autruche est un oiseau, donc on aurait tendan
 
 Il faut donc casser / adapter la hiérarchie pour qu'il n'y ai pas de méthode qui ne soit pas implémentable
 
-S’il est nécessaire d’utiliser une condition telle que “if instance of” pour exécuter une méthode c’est qu’il y a un problème de conception
+S’il est nécessaire d’utiliser une condition telle que “if instance of” pour exécuter une méthode c’est qu’il y a un problème de conception. L'ajout d'un sous-type par héritage ne doit pas rompre le code existant.
 
 Pour vérifier que l'on applique correctement ce principe il faut appliquer la règle “Tell don’t ask” c'est à dire qu'il ne faut pas avoir besoin de demander une information pour exécuter une action
 
