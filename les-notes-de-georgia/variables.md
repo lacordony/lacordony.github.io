@@ -16,15 +16,17 @@ Admettons que vous ayez une classe Animal et que vous deviez instancier un chat 
 
 Si vous appelez vos variables animal1 et animal2, on ne comprendra pas ce que vous instanciez.
 
-``Animal animal1 = new Animal();``
-
-``Animal animal2 = new Animal();``
+``` Java
+Animal animal1 = new Animal();
+Animal animal2 = new Animal();
+```
 
 Si vous appelez vos variables chien et chat, on comprendra ce que vous instanciez.
 
-``Animal chien = new Animal();``
-
-``Animal chat = new Animal();``
+``` Java
+Animal chien = new Animal();
+Animal chat = new Animal();
+```
 
 ### Types de variables
 
