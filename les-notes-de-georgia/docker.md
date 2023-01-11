@@ -16,7 +16,11 @@ Pour aller plus loin et la déployer, on ira voir comment marche fly.io
 
 Source : https://www.youtube.com/watch?v=3hol91BkYHU&list=PLmw3X80dPdlyRV2EUKnFOvBACs_tcArd0
 
-## Installation
+## Installation sur Windows
+
+Rendez-vous sur le site de Docker pour télécharger et installer Docker Desktop
+https://docs.docker.com/desktop/install/windows-install/
+
 
 
 ## Image
