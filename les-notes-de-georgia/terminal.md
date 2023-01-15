@@ -6,7 +6,11 @@ title: "Terminal et commandes Linux"
 
 # Terminal et commandes Linux
 
-Première mission, j'ai dû utiliser une VM sous Linux, je n'avais jamais utilisé ça de ma vie. Dès que je voyais un terminal et des lignes de commande, c'était ma hantise. J'ai appris sur le tas à l'arrache comme d'habitude, mais maintenant c'est bon, le traumatisme est passé.
+Première mission, j'ai dû utiliser une VM sous Linux, je n'avais jamais utilisé ça de ma vie. 
+
+> "Dès que je voyais un terminal et des lignes de commande, c'était ma hantise."
+
+J'ai appris sur le tas à l'arrache comme d'habitude, le traumatisme a fini par passer.
 
 ## Installer une distribution linux sur windows
 

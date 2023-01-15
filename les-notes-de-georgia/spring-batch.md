@@ -99,11 +99,14 @@ Il est donc fréquent d'avoir 2 bases de données distinctes, une pour le foncti
 
 #### Item Reader
 
-#### Item Writer
-
 #### Processor
 
+#### Item Writer
+
+
 ### Job et REST API
+
+#### Annotation
 
 ### Listener
 

@@ -28,6 +28,18 @@ width: 70%;
 width:70%;
 }
 
+#main-content h2 {
+    font-size: 1.8em;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+}
+
+#main-content h4 {
+    font-size: 1.3em;
+}
+
 #sidebar {
 width:30%;
 }
@@ -44,6 +56,10 @@ code {
     background-color: #fff;
     padding: 10px;
     border: solid 1px #f2f2f2;
+}
+
+.highlight {
+    background-color: #fff;
 }
 
 .keywords {
