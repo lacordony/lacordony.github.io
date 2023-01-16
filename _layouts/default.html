@@ -36,9 +36,9 @@
     <div id="myBodyContent" class="inner clearfix">
         <section id="main-content">
             {{ content }}
-            <p>Dernière modification : {{ page.date }}</p>
+            {% include date.html %}
+            <p>Dernière modification p : {{ page.date | date_to_string }} </p>
         </section>
-
         {% include aside.html %}
 
     </div>
