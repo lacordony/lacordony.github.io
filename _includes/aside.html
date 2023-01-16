@@ -5,6 +5,7 @@
     <ul>
         <li><a href="https://GeorgiaLR.github.io/">Page d'accueil</a></li>
         <li><a href="https://GeorgiaLR.github.io/les-notes-de-georgia.html">Notes</a></li>
+        <li><a href="https://GeorgiaLR.github.io/blog.html">Blog</a></li>
         <li><a href="https://GeorgiaLR.github.io/portfolio.html">Projets perso</a></li>
     </ul>
 
@@ -16,6 +17,15 @@
         <li><a href="{{ mynote.url }}" class="my-note">{{ mynote.title }}</a></li>
     {% endif %}
     {% endfor %}
+    </ul>
+
+    <h3>Blog</h3>
+    <ul>
+        {% for myblog in site.pages %}
+        {% if myblog.category == "blog" %}
+        <li><a href="{{ myblog.url }}" class="my-blog">{{ myblog.title }}</a></li>
+        {% endif %}
+        {% endfor %}
     </ul>
 
     <h3>Projets perso</h3>

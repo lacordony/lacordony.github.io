@@ -48,6 +48,12 @@ Vous ne verrez pas de configuration XML dans mes repos Git, mais j'essaierais si
 
 Je ne vais pas vous faire une demo de [Spring Initializr](https://start.spring.io/) ici, vous pouvez jeter un oeil aux dépendances qui peuvent être nécessaires dans ce [Pom.xml](https://github.com/GeorgiaLR/spring-batch-sample/blob/main/pom.xml)
 
+### Avant-propos : versions de Spring
+
+Lorsque j'ai suivi ma formation, nous étions en Spring version 2.7.1, j'ai constaté que certaines API étaient devenues deprecated depuis (JobBuilderFactory, StepBuilderFactory).
+
+J'ai donc adapté les exemples ci-dessous en Spring version 3.0.1, dans mon repo git vous trouverez les exemples dans le package "lco.sample.app" mais vous pourrez toujours retrouver au besoin les anciens exemples dans le package "lco.training"
+
 ### Job
 
 Commençons par le commencement, on a besoin d'un job.
@@ -90,9 +96,9 @@ Il est donc fréquent d'avoir 2 bases de données distinctes, une pour le foncti
 #### Job Status
 
 
-### Tasklet
 
-### Chunk
+
+### Step : Chunk-oriented
 
 ![Spring Batch Chunk Schema](/assets/img/spring-batch/springbatch-chunk.drawio.png)
 
@@ -104,14 +110,12 @@ Il est donc fréquent d'avoir 2 bases de données distinctes, une pour le foncti
 #### Item Writer
 
 
+### Step : Tasklet
+
+
 ### Job et REST API
 
 #### Annotation
 
 ### Listener
 
-## Exemples
-
-Suite à la formation que j'avais suivi, j'ai un peu réorganisé le code pour vous donner quelques mini-exemples de ce que je vous ai expliqué dans cette note : 
-
-Nb : si vous fouillez vous trouverez des différences avec le package Training qui utilisait notamment un JobBuilderFactory pour configurer les jobs, cette API étant deprecated j'ai modifié le code dans les packages d'exemples pour éviter de vous laisser du code deprecated.
