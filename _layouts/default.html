@@ -39,7 +39,7 @@
             <p class="last-updated">Dernière modification : {{ page.last_updated }}</p>
             {{ content }}
             {% include date.html %}
-            <p>Dernière modification p : {{ page.date | date: '%B %d, %Y' }} </p>
+            <p>Dernière modification p : {{ page.date | date_to_string }} </p>
         </section>
         {% include aside.html %}
     </div>
