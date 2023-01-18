@@ -1,4 +1,7 @@
-# Docker
+---
+layout: default
+title: "Docker"
+---
 
 
 En entreprise on voit que de plus en plus de choses sont automatisées avec des chaînes devops, notamment les chaînes de déploiement. 

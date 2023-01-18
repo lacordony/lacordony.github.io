@@ -2,9 +2,8 @@
 layout: default
 category: notes
 title: "Terminal et commandes Linux"
+last_updated: "16/02/2023"
 ---
-
-# Terminal et commandes Linux
 
 Première mission, j'ai dû utiliser une VM sous Linux, je n'avais jamais utilisé ça de ma vie. 
 

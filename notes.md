@@ -1,4 +1,9 @@
-# LES NOTES DE GEORGIA
+---
+layout: default
+permalink: /:basename
+last_updated: "18/02/2023"
+title: "LES NOTES DE GEORGIA"
+---
 
 L'objectif serait d'avoir des petites fiches thématiques à relire facilement pour se rafraichir la mémoire ou préparer un entretien par exemple.
 

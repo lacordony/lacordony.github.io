@@ -1,4 +1,7 @@
-# Domain-Driven Design (DDD)
+---
+layout: default
+title: "Domain-Driven Design (DDD)"
+---
 
 L'objectif du DDD est de concevoir une application (et définir une solution technique) la plus pratique possible pour ses utilisateurs.
 

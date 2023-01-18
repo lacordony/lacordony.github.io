@@ -2,9 +2,8 @@
 layout: default
 category: notes
 title: "Spring Batch"
+last_updated: "16/02/2023"
 ---
-
-# Spring Batch
 
 J'ai travaillé sur Spring Batch durant une mission, je n'y connaissais rien et j'ai dû comprendre et modifier du code que je n'avais jamais vu de ma vie. Dans tout ce que j'ai pu voir Spring Batch est ce que j'ai eu le plus de mal à comprendre. 
 

@@ -1,4 +1,7 @@
-# Vue.js
+---
+layout: default
+title: "Vue.js"
+---
 
 Je sais que je vous avais promis du java mais quelques connaissances front-end sont toujours bonnes à prendre.
 
@@ -30,7 +33,7 @@ npm run dev
 
 ### Tailwind CSS - optional
 
-Ce n'est pas obligatoire mais Tailwind CSS est un bon complément front pour le design de votre application
+Ce n'est pas obligatoire, mais Tailwind CSS est un bon complément front pour le design de votre application
 
 ``` Vue.js
 npm install -D tailwindcss postcss autoprefixer
@@ -47,4 +50,4 @@ Je me contenterais dans cette rubrique de lister quelques exemples qui me semble
 
 ## Déploiement avec Git et Netlify
 
-Dans cette dernière partie on verra comment déployer l'application sur Netlify
+Dans cette dernière partie, on verra comment déployer l'application sur Netlify

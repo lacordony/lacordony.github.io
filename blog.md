@@ -1,4 +1,9 @@
-# LE BLOG DE GEORGIA
+---
+layout: default
+permalink: /:basename
+last_updated: "18/02/2023"
+title: "LE BLOG DE GEORGIA"
+---
 
 La technique, c'est bien, mais il y a aussi la vie.
 
@@ -10,5 +15,4 @@ Je vous partagerais donc parfois des articles un peu plus différents, moins tec
 
 Première chose personnelle, vous l'aurez surement remarqué, j'adore les GIFs et je m'en excuse par avance.
 
-
-
+<p>Dernière modification : {{ page.date | date_to_string }} </p>
