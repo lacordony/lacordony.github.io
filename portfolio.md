@@ -1,17 +1,17 @@
 ---
 layout: default
 permalink: /:basename
-last_updated: "18/02/2023"
+last_updated: "19/02/2023"
 title: "PORTFOLIO-OHOH"
 ---
 
-Vous retrouverez dans le menu de droite la liste des projets disponibles.
+Vous retrouverez dans le menu de droite la liste des projets disponibles. :arrow_right:
 
 Pour l'instant ce sont des petites présentations très rapides de choses que j'ai fait pendant ma reconversion.
 
-J'espère pouvoir enrichir au fur à mesure des années. 
+J'espère pouvoir enrichir au fur à mesure.
 
-> "Vous savez ce que c'est les side projects : j'ai plein d'idées, je veux tester plein de trucs et on s'égare sans en finir aucun..."
+> "Vous savez ce que c'est les side projects : on a plein d'idées, on veut tester plein de trucs et on s'égare sans en finir aucun..."
 
 Je vais donc vous dire ce que vous ne verrez pas.
 

@@ -15,4 +15,3 @@ Je vous partagerais donc parfois des articles un peu plus différents, moins tec
 
 Première chose personnelle, vous l'aurez surement remarqué, j'adore les GIFs et je m'en excuse par avance.
 
-<p>Dernière modification : {{ page.date | date_to_string }} </p>

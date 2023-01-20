@@ -14,6 +14,7 @@ sass:
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
+  - jemoji
 
 defaults:
   - scope:
