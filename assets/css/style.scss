@@ -17,15 +17,27 @@ header {
 }
 
 #myHeaderContent {
-width: 70%;
+    width: 70%;
 }
 
 #myBodyContent {
-width: 70%;
+    width: 80%;
 }
 
 #main-content {
-width:70%;
+    width:60%;
+}
+
+aside#sidebar {
+    width:30%;
+    float: right;
+    min-height: 504px;
+    padding-left: 20px;
+    font-size: 12px;
+    line-height: 1.3;
+    border: 1px dashed #6fadf2;
+    border-radius: 15px;
+    background: none;
 }
 
 #main-content h2 {
@@ -40,9 +52,6 @@ width:70%;
     font-size: 1.3em;
 }
 
-#sidebar {
-width:30%;
-}
 
 blockquote p {
     font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
@@ -98,4 +107,18 @@ overflow: hidden;
 td, th {
     border: 1px solid #1468c5;
     padding: 3px;
+}
+
+h4:before {
+    padding-right: 0.3em;
+    margin-left: -0.5em;
+    content: "---";
+    color: #9ddcff;
+}
+
+#main-content h3:before {
+    padding-right: 0.3em;
+    margin-left: -0.5em;
+    content: "*";
+    color: #9ddcff;
 }

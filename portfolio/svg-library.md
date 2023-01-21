@@ -2,9 +2,8 @@
 layout: default
 category: portfolio
 title: 'Librairie SVG'
+last_updated: "13/07/2019"
 ---
-
-# Librairie SVG
 
 ## Le projet
 

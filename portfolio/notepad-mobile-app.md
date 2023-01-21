@@ -2,23 +2,22 @@
 layout: default
 category: portfolio
 title: 'Bloc-notes'
+last_updated: "15/03/2018"
 ---
-
-# Bloc-notes
 
 ## Le projet
 
-#### Contexte 
+### Contexte 
 
 Application basique de bloc notes pour mobile (CRUD)
 
 C'est le premier projet mobile que j'ai réalisé durant ma formation de reconversion. L'objectif était de faire une application mobile en full JS et de la build avec Cordova via Android studio.
 
-#### Technologies
+### Technologies
 
 javaScript, jQuery, cordova
 
-#### Code
+### Code
 
 Source code : [Link](https://github.com/GeorgiaLR/BlocNotes)
 

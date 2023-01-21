@@ -2,9 +2,8 @@
 layout: default
 category: portfolio
 title: 'Liste de courses'
+last_updated: "11/09/2018"
 ---
-
-# Liste de courses
 
 ## Le projet
 

@@ -4,9 +4,19 @@
 
     <ul>
         <li><a href="/">Page d'accueil</a></li>
-        <li><a href="/notes">Notes</a></li>
         <li><a href="/blog">Blog</a></li>
+        <li><a href="/notes">Notes</a></li>
         <li><a href="/portfolio">Projets perso</a></li>
+    </ul>
+
+
+    <h3>Blog</h3>
+    <ul>
+        {% for myblog in site.pages %}
+        {% if myblog.category == "blog" %}
+        <li><a href="{{ myblog.url }}" class="my-blog">{{ myblog.title }}</a></li>
+        {% endif %}
+        {% endfor %}
     </ul>
 
     <h3>Notes</h3>
@@ -19,14 +29,6 @@
     {% endfor %}
     </ul>
 
-    <h3>Blog</h3>
-    <ul>
-        {% for myblog in site.pages %}
-        {% if myblog.category == "blog" %}
-        <li><a href="{{ myblog.url }}" class="my-blog">{{ myblog.title }}</a></li>
-        {% endif %}
-        {% endfor %}
-    </ul>
 
     <h3>Projets perso</h3>
     <ul>

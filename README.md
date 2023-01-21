@@ -2,14 +2,14 @@
 layout: default
 permalink: /
 last_updated: "18/02/2023"
-title: "Bienvenue sur ma page !"
+title: "Hello World !"
 ---
 
 Cette Github Page est un petit site vitrine qui me permettra de vous faire découvrir qui je suis en tant que développeuse.
 
-Reconvertie et curieuse, j'ai tendance à aimer toucher à tout, sauf que j'ai très vite compris que s'éparpiller en tant que développeur n'était pas très efficace. 
+Reconvertie et curieuse, j'ai tendance à aimer toucher à tout, sauf que j'ai très vite compris que s'éparpiller en tant que développeur avait quelques effets secondaires.
 
-On teste tout mais on ne maîtrise rien et on se sent vite submergés (syndrome de l'imposteur quand tu nous tient). C'est particulièrement valable en entretien, les questions sont souvent pointues et se contenter de survoler un langage n'est pas suffisant. 
+On teste tout mais on ne maîtrise rien et on se sent vite submergés (syndrome de l'imposteur quand tu nous tiens). C'est particulièrement valable en entretien, les questions sont souvent pointues et se contenter de survoler un langage n'est pas suffisant. 
 
 > "Je me suis vite rendue compte que je devais plus me spécialiser pour pouvoir masteriser"
 
@@ -30,14 +30,22 @@ Alors c'est parti ?
 - ["Oui, je veux apprendre avec toi !"](/notes)
 - "Non, je passe"
 
-Ok, si tu ne veux pas faire de java, je peux peut-être te montrer d'autres trucs cool
+Ok, si tu ne veux pas faire de dev, je peux peut-être te raconter d'autres trucs cool
 
-J'ai fait un petit portfolio des projets que j'avais faits pendant ma formation ça te dit ?
+J'ai aussi fait un espace blog pour parler de choses et d'autres si ça te dit ?
+
+- ["Oui, ça me dit bien le blog"](/blog)
+- "Non, toujours pas"
+
+Tu es un client difficile. Last chance !
+
+J'ai fait un petit portfolio des projets que j'avais faits pendant ma formation tu veux les voir ?
 
 - ["Oui, ça me dit bien le portfolio"](/portfolio)
 - "Non, toujours pas"
 
-Ce n'est pas ce à quoi tu t'attendais ? Désolée si tu es un peu déçu(e)
+Ce n'est pas ce à quoi tu t'attendais ? Désolée de te décevoir.
+
 Si jamais tu veux parler d'autres choses, tu trouveras mon <span class="keywords">linkedin</span> sur mon profil Github
 
 Merci d'être passé(e) !

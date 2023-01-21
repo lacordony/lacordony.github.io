@@ -31,11 +31,11 @@ Si j'ai un peu mis de côté tous ces projets, c'est aussi parce que ce ne sont 
 
 Vous allez me dire : "Quoi ?! Ta carrière c'est pas fun ?"
 
-Alors oui et non. C'est techniquement intéressant mais quand on bosse dans l'intégration logiciel, on produit des softs vachement moins bling-bling avec des technos parfois loin d'être à la mode. On va dire qu'on troque un peu le cool contre le performant.
+Alors oui et non. C'est techniquement intéressant, mais quand on bosse dans l'intégration de logiciels, on produit des softs vachement moins bling-bling avec des technos parfois loin d'être à la mode. On va dire qu'on troque un peu le cool contre le performant.
 
 Du coup c'est un peu plus compliqué de se la raconter en soirée devant les amis ou la famille quand tu développes des applications qui exécutent des batchs pour transformer des fichiers XML.
 
-C'est comme ça qu'à chaque réunion de famille, ma mère me dit un truc du genre : "Réexplique moi ce que tu fais, je sais jamais expliquer quand on me demande"
+C'est comme ça qu'à chaque réunion de famille, ma mère me dit un truc du genre : "Réexplique-moi ce que tu fais, je sais jamais expliquer quand on me demande"
 
 ![Rien compris](https://media1.giphy.com/media/ehywF7d8Hyzz5y9YA1/giphy.gif?cid=790b7611f766d51018a42066095516749b548e4abfcf911a&rid=giphy.gif
 "Rien compris")
