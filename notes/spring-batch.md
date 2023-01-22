@@ -1,6 +1,5 @@
 ---
 layout: default
-category: notes
 title: "Spring Batch"
 last_updated: "16/02/2023"
 ---
@@ -82,11 +81,7 @@ Il faut donc lui fournir une datasource pour que le job repository puisse aller 
 
 Il est donc fréquent d'avoir 2 bases de données distinctes, une pour le fonctionnement de Spring Batch et une qui traitera les données que vous manipulez.
 
-
-
-
 #### Job launcher
-
 
 
 
@@ -99,12 +94,61 @@ Il est donc fréquent d'avoir 2 bases de données distinctes, une pour le foncti
 
 ### Step : Chunk-oriented
 
+
 ![Spring Batch Chunk Schema](/assets/img/spring-batch/springbatch-chunk.drawio.png)
+
+Pour vous expliquer plus simplement cette partie je vais illustrer avec un exemple.
+
+Admettons que vous ayez une plateforme de suivi des examens/évaluations de vos étudiants. On vous annonce que demain vous allez devoir changer de plateforme pour un truc mieux. Sauf que, vous voulez pouvoir garder les évaluations de l'année scolaire en cours pour ne pas avoir à switcher entre les deux. On vous propose alors de migrer ces données vers la nouvelle plateforme.
+
+Pour cela, on va vous mettre à dispo un programme qui va aller récupérer les données au format A dans une source A (répertoire, base de données) pour les migrer dans un format B vers une destination B (répertoire, base de données).
+
+Pour notre exemple, je vais partir du principe que le format A sera un CSV et le format B sera un JSON.
+
+Voici un exemple de ce que contiendra le CSV d'input :
+
+```
+
+```
 
 
 #### Item Reader
 
-#### Processor
+L'item reader va être en charge de parser le fichier d'input (A) pour le découper en items qui correspondront à la classe modèle que vous avez défini.
+
+Mon modèle sera la classe : "StudentCsv" dans laquelle je vais indiquer les attributs que je veux récupérer et à quelle colonne ils correspondent dans mon fichier CSV.
+
+```
+public class StudentCsv {
+
+    // id de l'étudiant
+    private Long id;
+
+    // Prénom de l'étudiant
+    private String firstName;
+
+    // Nom de l'étudiant
+    private String lastName;
+    
+    // Matière
+    private String area;
+    
+    // Nom de l'examen
+    private String examTitle;
+    
+    // Note de l'étudiant
+    private int note;
+    
+    // Ajouter getter/setter
+    ...
+}
+```  
+
+
+
+#### Processor (optionnel)
+
+
 
 #### Item Writer
 

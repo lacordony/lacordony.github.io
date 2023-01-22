@@ -1,6 +1,5 @@
 ---
 layout: default
-category: notes
 title: "Les variables"
 last_updated: "10/12/2022"
 ---
