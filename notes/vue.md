@@ -29,18 +29,41 @@ npm install
 npm run dev
 ```
 
-[Documentation officielle](https://vuejs.org/guide/quick-start.html#creating-a-vue-application)
+[Documentation officielle : Créer une application Vue](https://vuejs.org/guide/quick-start.html#creating-a-vue-application)
 
-### Tailwind CSS - optional
+### Bulma (optionnel)
 
-Ce n'est pas obligatoire, mais Tailwind CSS est un bon complément front pour le design de votre application
+N'étant pas une fan de CSS, j'utilise Bulma en complément pour aller plus vite.
 
-``` Vue.js
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p 
+``` npm
+npm install Bulma
 ```
 
-[Documentation officielle](https://tailwindcss.com/docs/guides/vite#vue)
+Vous devrez ensuite importer le bout de code suivant dans votre fichier <span class="keywords">main.js</span>
+
+``` js
+import 'bulma/css/bulma.css'
+```
+
+[Documentation officielle : Démarrer avec Bulma](https://bulma.io/documentation/overview/start/)
+
+
+### Fontawesome icons (optionnel)
+
+Si vous voulez ajouter des icons sur votre site, Vue supporte Fontawesome mais vous devrez installer quelques dépendances
+
+``` npm
+npm i --save @fortawesome/fontawesome-svg-core
+npm i --save @fortawesome/free-solid-svg-icons
+
+# for Vue 3.x
+npm i --save @fortawesome/vue-fontawesome@latest-3
+```
+
+Vous devrez ensuite ajouter les dépendances dans votre fichier <span class="keywords">main.js</span>
+
+Pour cela je vous renvoie vers l'exemple : [Documentation officielle : Ajouter des icones à votre projet Vue](https://fontawesome.com/docs/web/use-with/vue/add-icons)
+
 
 ## Développement
 
