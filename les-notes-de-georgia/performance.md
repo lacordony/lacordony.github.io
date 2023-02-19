@@ -1,3 +1,0 @@
-# Performance
-
-See you soon

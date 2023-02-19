@@ -46,8 +46,6 @@ J'ai fait un petit portfolio des projets que j'avais faits pendant ma formation 
 
 Ce n'est pas ce à quoi tu t'attendais ? Désolée de te décevoir.
 
-Si jamais tu veux parler d'autres choses, tu trouveras mon <span class="keywords">linkedin</span> sur mon profil Github
-
 Merci d'être passé(e) !
 
 

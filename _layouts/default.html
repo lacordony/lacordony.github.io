@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en-US' }}">
 <head>
+    <title>L'univers de Georgia</title>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -38,8 +39,6 @@
             <h1>{{ page.title }}</h1>
             <p class="last-updated">Dernière modification : {{ page.last_updated }}</p>
             {{ content }}
-            {% include date.html %}
-            <p>Dernière modification p : {{ page.date | date_to_string }} </p>
         </section>
         {% include aside.html %}
     </div>
