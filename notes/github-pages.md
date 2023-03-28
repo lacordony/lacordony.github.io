@@ -3,6 +3,7 @@ layout: default
 category: notes
 title: "Créer son blog avec Github Pages"
 last_updated: "21/01/2023"
+status: published
 ---
 
 Vous débutez, vous voulez quelque chose de simple à mettre en ligne comme un blog ou un petit CV en ligne.

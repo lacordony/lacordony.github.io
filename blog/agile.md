@@ -30,9 +30,9 @@ Ils portent le mot "Definition" cela signifie qu'il y a des règles à définir 
 
 Le DOR peut s'appliquer aussi bien aux features qu'aux user stories.
 
-Le principe c'est de se dire "quels sont les critères qui me permettent de m'assurer que l'on peut commencer à travailler sur ce ticket ?"
+Le principe c'est de se dire "quels sont les critères qui me permettent de m'assurer que l'on peut commencer à travailler sur ce sujet ?"
 
-L'objectif étant de s'assurer que les équipes de réalisation disposent de toutes les informations nécessaires pour réaliser leurs tâches.
+L'objectif étant de s'assurer que les équipes de réalisation disposent de toutes les informations nécessaires pour réaliser leurs tâches.z
 
 
 

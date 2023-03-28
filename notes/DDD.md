@@ -1,6 +1,9 @@
 ---
 layout: default
+category: notes
 title: "Domain-Driven Design (DDD)"
+last_updated: "21/01/2023"
+status: brouillon
 ---
 
 L'objectif du DDD est de concevoir une application (et définir une solution technique) la plus pratique possible pour ses utilisateurs.

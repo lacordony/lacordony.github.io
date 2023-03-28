@@ -1,6 +1,9 @@
 ---
 layout: default
+category: notes
 title: "Docker"
+status: brouillon
+last_updated: "28/03/2023"
 ---
 
 
@@ -12,7 +15,7 @@ J'ai commencé à m'intéresser à la question quand j'ai voulu déployer un sit
 
 Mais pour un site web homemade ? 
 
-J'ai commencé à développer un site en Spring/Thymeleaf car Spring est ma stack pro et je voulais un site pour m'entrainer, bidouiller, explorer. Je voyais tout le monde parler de Netlify et de sa facilité de déploiement, je pensais que ça me prendrait que quelques minutes. Sauf que voilà, Netlify en fait ne gère que le déploiement de site statique donc pour le java vous repasserez.
+J'ai commencé à développer un site en Spring/Thymeleaf car Spring est ma stack pro et je voulais un site pour m'entrainer, bidouiller, explorer. Je voyais tout le monde parler de Netlify et de sa facilité de déploiement, je pensais que ça me prendrait que quelques minutes. Sauf que voilà, Netlify ne gère que le déploiement de sites statiques. Pour le java vous repasserez.
 
 Du coup, pour déployer mon site, je dois générer une image Docker et la déployer. L'angoisse totale.
 
@@ -20,15 +23,17 @@ Du coup, pour déployer mon site, je dois générer une image Docker et la dépl
 
 L'objectif de cette note sera donc de :
 * Installer Docker sur Windows
-* Comprendre ce que c'est et comment ça marche (Source : https://www.youtube.com/watch?v=3hol91BkYHU&list=PLmw3X80dPdlyRV2EUKnFOvBACs_tcArd0)
-* Build une image en local à partir d'un projet Springboot / Maven
+* Comprendre ce que c'est et comment ça marche
+* Créer un dockerfile à partir d'un projet Spring Boot / Maven et le pousser sur le docker hub
 
-Pour aller plus loin et la déployer, on ira voir comment marche fly.io, mais ça, ce sera pour une autre note.
+Pour ce qui est de l'automatisation et du déploiement, on verra ça plus tard à travers une autre note qui parlera de fly.io
+
+Pour écrire cette note j'ai utilisé les sources suivantes : le site officiel pour l'installation de [Docker](https://docs.docker.com/get-docker/), le cours openclassrooms [Optimisez vos déploiements en créant des conteneurs avec Docker](https://openclassrooms.com/fr/courses/2035766-optimisez-votre-deploiement-en-creant-des-conteneurs-avec-docker) et la playlist youtube des [vidéos](https://www.youtube.com/watch?v=3hol91BkYHU&list=PLmw3X80dPdlyRV2EUKnFOvBACs_tcArd0) de [@aurelievache](https://twitter.com/aurelievache) 
 
 ## Installation sur Windows
 
-Rendez-vous sur le site de Docker pour télécharger et installer Docker Desktop
-https://docs.docker.com/desktop/install/windows-install/
+Rendez-vous sur le site de Docker pour télécharger et installer [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/)
+
 
 
 

@@ -1,7 +1,9 @@
 ---
 layout: default
+category: notes
 title: "Spring Batch"
 last_updated: "16/02/2023"
+status: brouillon
 ---
 
 J'ai travaillé sur Spring Batch durant une mission, je n'y connaissais rien et j'ai dû comprendre et modifier du code que je n'avais jamais vu de ma vie. Dans tout ce que j'ai pu voir Spring Batch est ce que j'ai eu le plus de mal à comprendre. 
@@ -78,8 +80,6 @@ public class SpringBatchApplication {
 Important à savoir et à comprendre, un job a besoin d'une base de données pour stocker les informations relatives au job (son status, ses paramètres etc..)
 
 Il faut donc lui fournir une datasource pour que le job repository puisse aller sauvegarder les informations dans la base de données.
-
-Il est donc fréquent d'avoir 2 bases de données distinctes, une pour le fonctionnement de Spring Batch et une qui traitera les données que vous manipulez.
 
 #### Job launcher
 

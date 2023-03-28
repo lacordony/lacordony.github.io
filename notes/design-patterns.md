@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Design Patterns"
+
+---
+
 # Design Patterns
 
 See you soon

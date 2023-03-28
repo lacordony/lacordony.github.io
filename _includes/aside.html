@@ -6,7 +6,7 @@
         <li><a href="/">Page d'accueil</a></li>
         <li><a href="/blog">Blog</a></li>
         <li><a href="/notes">Notes</a></li>
-        <li><a href="/portfolio">Projets perso</a></li>
+        <!--<li><a href="/portfolio">Projets perso</a></li>-->
     </ul>
 
 
@@ -24,20 +24,24 @@
     <ul>
     {% for mynote in site.pages %}
     {% if mynote.category == "notes" %}
+        {% if mynote.status == "published" %}
         <li><a href="{{ mynote.url }}" class="my-note">{{ mynote.title }}</a></li>
+        {% else %}
+        <li><a href="{{ mynote.url }}" class="my-note">{{ mynote.title }}</a><span> - (Brouillon)</span></li>
+        {% endif %}
     {% endif %}
     {% endfor %}
     </ul>
 
 
-    <h3>Projets perso</h3>
+    <!--<h3>Projets perso</h3>
     <ul>
     {% for myproject in site.pages %}
     {% if myproject.category == "portfolio" %}
         <li><a href="{{ myproject.url }}" class="my-project">{{ myproject.title }}</a></li>
     {% endif %}
     {% endfor %}
-    </ul>
+    </ul>-->
 
     <h2>A propos de l'auteur</h2>
 
