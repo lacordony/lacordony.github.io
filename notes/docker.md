@@ -30,41 +30,70 @@ Pour ce qui est de l'automatisation et du déploiement, on verra ça plus tard �
 
 Pour écrire cette note j'ai utilisé les sources suivantes : le site officiel pour l'installation de [Docker](https://docs.docker.com/get-docker/), le cours openclassrooms [Optimisez vos déploiements en créant des conteneurs avec Docker](https://openclassrooms.com/fr/courses/2035766-optimisez-votre-deploiement-en-creant-des-conteneurs-avec-docker) et la playlist youtube des [vidéos](https://www.youtube.com/watch?v=3hol91BkYHU&list=PLmw3X80dPdlyRV2EUKnFOvBACs_tcArd0) de [@aurelievache](https://twitter.com/aurelievache) 
 
-## Installation sur Windows
+## Installation
 
-Rendez-vous sur le site de Docker pour télécharger et installer [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/)
+Rendez-vous sur le site de Docker pour télécharger et installer [Docker Desktop](https://docs.docker.com/get-docker/)
+
+Je vous fais pas un dessin, c'est très bien expliqué, j'ai suivi pas à pas l'installation et rien n'a explosé !
+
+Si vous êtes sur Windows comme moi (oui ça existe), veillez à bien avoir WSL 2 d'installé avant pour avoir une distribution linux compatible, vous retrouverez les instructions [ici](https://learn.microsoft.com/en-us/windows/wsl/install).
+
+## Docker, c'est quoi ? 
+
+Sur les projets sur lesquels je travaille, on utilise des VM (machine virtuelle) sur lesquelles nos programmes sont exécutés. Sur ces machins on retrouve en général un OS Linux/Windows, ça ressemble à votre PC perso mais vous y accédez à distance. Alors c'est cool on peut faire plein de trucs avec, mais ça consomme aussi beaucoup de ressources (CPU/RAM) et potentiellement d'argent. Ces VMs ont une certaine capacité que vous devez définir à l'avance, vous devez aussi savoir de combien de machines vous aurez besoin. Il faut donc anticiper et souvent, quand on sait pas trop anticiper, on a tendance à prendre de la marge. Du coup on achète plein de grosses machines et in fine on en utilise que 20%. Pas super opti ! Ni pour le portefeuille, ni pour la planète.
+
+Bref.
+
+C'est pour ces raisons notamment que la conteneurisation d'applications est devenue à la mode. Je vais reprendre la symbolique du bateau et des containers mais en gros au lieu d'avoir 3 bâteaux pour déplacer vos 3 cargaisons, vous allez mettre vos cargaisons dans 3 containers qui vont être déposées sur le même bateau. Les containers peuvent donc être de tailles différentes et être gérés indépendamment par le bateau.
+
+Techniquement parlant on va packager notre application dans un conteneur ce qui va faciliter l'automatisation des déploiements et aussi leur rapidité. De plus, les conteneurs ne consommeront que les ressources nécessaires à leur fonctionnement, moins de gaspillage de ressources et d'argent. Enfin, on n'est plus dépendant de l'OS, le conteneur pourra être déployé partout.
+
+## Lancer un conteneur
+
+
+
+## Créer son premier docker file 
+
+
+## Orchestrer ses conteneurs avec Docker Compose
+
+
+## En synthèse : les commandes
+
+
+### Container
 
 
 
 
-## Image
 
+### Image
 
-Réprésentées par un id (imageID) et un nom (repository)
-Le nom pointe vers un imageID
-Plusieurs noms peuvent pointer vers une même image.
-Chaque image contient plusieurs couches (layers)
 L'image contient tout ce qui est nécessaire au lancement d'une application.
+Une image est représentée par un id (imageID) et un nom (repository). Le nom pointe vers un imageID. Plusieurs noms peuvent pointer vers une même image.
+Chaque image contient plusieurs couches (layers).
 
-Afficher la liste des images disponibles
+* Afficher la liste des images disponibles
+```
 docker images
+```
 
-Filtrer la liste des images
+* Filtrer la liste des images
+```
 docker images --filter reference="commencepar*:*finipar"
+```
 
-Lister les images non utilisées
+* Lister les images non utilisées
+```
 docker images -f dangling=true
+```
 
-Supprimer image
+* Supprimer une image
+```
 docker images rmi ubuntu:latest
+```
 
-## Layers
+### Layers
 
-Les layers font partie d'une image
-Layers sont en lecture seule, ne peuvent être modifiés
-Layers identifiés par un id
-
-
-
-## Container
-
+Les layers font partie d'une image. Les layers sont identifiés par un id.
+Les layers sont en lecture seule et ne peuvent être modifiés.
