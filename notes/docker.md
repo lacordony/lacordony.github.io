@@ -9,7 +9,7 @@ last_updated: "28/03/2023"
 
 En entreprise on voit que de plus en plus de choses sont automatisées avec des chaînes devops, notamment les chaînes de déploiement. 
 
-> "En tant que développeur junior on ne voit pas toujours ce qui se passe après le développement. Mon code est pushé, il a été mergé et après ?"
+> "En tant que développeur junior on ne voit pas toujours ce qui se passe après le développement. Mon code est pushé, il a été mergé et après où est-ce qu'il va ?"
 
 J'ai commencé à m'intéresser à la question quand j'ai voulu déployer un site web perso. Par exemple, cette Github Pages est configurée pour se déployer automatiquement à chaque push du coup je n'ai pas trop à me soucier de ce qu'il se passe. Juste un clic pour choisir la branche à déployer et c'est fait, le pipeline se lance tout seul et le site est en ligne.
 
@@ -42,17 +42,58 @@ Si vous êtes sur Windows comme moi (oui ça existe), veillez à bien avoir WSL 
 
 Sur les projets sur lesquels je travaille, on utilise des VM (machine virtuelle) sur lesquelles nos programmes sont exécutés. Sur ces machins on retrouve en général un OS Linux/Windows, ça ressemble à votre PC perso mais vous y accédez à distance. Alors c'est cool on peut faire plein de trucs avec, mais ça consomme aussi beaucoup de ressources (CPU/RAM) et potentiellement d'argent. Ces VMs ont une certaine capacité que vous devez définir à l'avance, vous devez aussi savoir de combien de machines vous aurez besoin. Il faut donc anticiper et souvent, quand on sait pas trop anticiper, on a tendance à prendre de la marge. Du coup on achète plein de grosses machines et in fine on en utilise que 20%. Pas super opti ! Ni pour le portefeuille, ni pour la planète.
 
-Bref.
-
-C'est pour ces raisons notamment que la conteneurisation d'applications est devenue à la mode. Je vais reprendre la symbolique du bateau et des containers mais en gros au lieu d'avoir 3 bâteaux pour déplacer vos 3 cargaisons, vous allez mettre vos cargaisons dans 3 containers qui vont être déposées sur le même bateau. Les containers peuvent donc être de tailles différentes et être gérés indépendamment par le bateau.
+Bref. C'est pour ces raisons notamment que la conteneurisation d'applications est devenue à la mode. Je vais reprendre la symbolique du bateau et des containers mais en gros au lieu d'avoir 3 bâteaux pour déplacer vos 3 cargaisons, vous allez mettre vos cargaisons dans 3 containers qui vont être déposées sur le même bateau. Les containers peuvent donc être de tailles différentes et être gérés indépendamment par le bateau.
 
 Techniquement parlant on va packager notre application dans un conteneur ce qui va faciliter l'automatisation des déploiements et aussi leur rapidité. De plus, les conteneurs ne consommeront que les ressources nécessaires à leur fonctionnement, moins de gaspillage de ressources et d'argent. Enfin, on n'est plus dépendant de l'OS, le conteneur pourra être déployé partout.
 
+Si vous préférez quelque chose d'un peu plus visuel, vous pouvez regarder le [schéma d'architecture](https://docs.docker.com/get-started/overview/#docker-architecture) officiel de Docker.
+
 ## Lancer un conteneur
 
+Pour lancer votre conteneur, il vous faut une image. Il existe des images sur le Docker Hub (aussi appelé Registry) c'est un peu comme aller chercher ses packages sur NPM finalement.
 
+On va donc aller chercher l'image ["hello-world"](https://hub.docker.com/_/hello-world) et lancer un conteneur via la commande :
 
-## Créer son premier docker file 
+```
+docker run hello-world
+```
+
+La commande va chercher si l'image existe en local sinon elle va aller la pull sur le Docker Hub.
+
+![docker-run](/assets/img/docker/helloworldocker.png)
+
+Pour ceux qui utilisent Docker Desktop vous allez le voir apparaitre dans votre liste de container.
+
+![docker-run](/assets/img/docker/containerhelloworld.png)
+
+Avec un "docker run" standard votre conteneur ne va pas rester allumé.
+
+Pour ça il faut le lancer dans une console indépendante via l'argument "-d" (pour detach)
+
+```
+docker run -d -p 80:80 docker/getting-started
+ou
+docker run -dp 80:80 docker/getting-started
+```
+
+L'argument "-p" permet de définir le port, ici 80:80. 
+Une fois votre conteneur lancé vous pourrez vous rendre à l'adresse suivante : http://localhost:80/ et vous retrouverez la documentation de démarrage.
+
+Vous voyez dans le docker desktop que cette fois le conteneur n'est pas arrêté.
+
+![docker-run](/assets/img/docker/containergettingstarted.png)
+
+Si vous n'en avez plus besoin vous pouvez l'arrêter.
+
+```
+docker stop <ID_DU_CONTAINER>
+```
+
+Une précision importante. Lorsque vous stoppez votre conteneur toute donnée sera perdue, c'est ce qu'on appelle un conteneur stateless (sans état). C'est à dire qu'il n'y a aucune persistance de données dans le conteneur.
+Si vous voulez héberger par exemple une base de données, vous devrez utiliser un conteneur statefull (avec état) qui ne supprimera pas les données à l'arrêt du conteneur.
+
+## Créer son premier dockerfile 
+
 
 
 ## Orchestrer ses conteneurs avec Docker Compose
@@ -60,12 +101,37 @@ Techniquement parlant on va packager notre application dans un conteneur ce qui 
 
 ## En synthèse : les commandes
 
-
 ### Container
 
+* Lancer un conteneur
+```
+docker run <IMAGE>
+```
 
+* Lancer un conteneur détaché avec un port défini
+```
+docker run -dp <PORT> <IMAGE>
+```
 
+* Arrêter un conteneur
+```
+docker stop <ID_DU_CONTAINER>
+```
 
+* Download une image du registry en local
+```
+docker pull <IMAGE>
+```
+
+* Supprimer un conteneur
+```
+docker rm <ID_DU_CONTAINER>
+```
+
+* Afficher la liste des conteneurs détachés
+```
+docker ps
+```
 
 ### Image
 
@@ -76,6 +142,11 @@ Chaque image contient plusieurs couches (layers).
 * Afficher la liste des images disponibles
 ```
 docker images
+```
+
+* Afficher la liste des images disponibles en local
+```
+docker images -a
 ```
 
 * Filtrer la liste des images
