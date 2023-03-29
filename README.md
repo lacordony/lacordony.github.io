@@ -5,7 +5,7 @@ last_updated: "18/02/2023"
 title: "Hello World !"
 ---
 
-Cette Github Page est un petit site vitrine qui me permettra de vous faire découvrir qui je suis en tant que développeuse.
+Cette Github Page est un petit site perso qui me permettra de vous faire découvrir qui je suis en tant que développeuse.
 
 Reconvertie et curieuse, j'ai tendance à aimer toucher à tout, sauf que j'ai très vite compris que s'éparpiller en tant que développeur avait quelques effets secondaires.
 
@@ -37,17 +37,9 @@ J'ai aussi fait un espace blog pour parler de choses et d'autres si ça te dit ?
 - ["Oui, ça me dit bien le blog"](/blog)
 - "Non, toujours pas"
 
-Tu es un client difficile. Last chance !
-
-J'ai fait un petit portfolio des projets que j'avais faits pendant ma formation tu veux les voir ?
-
-- ["Oui, ça me dit bien le portfolio"](/portfolio)
-- "Non, toujours pas"
-
 Ce n'est pas ce à quoi tu t'attendais ? Désolée de te décevoir.
 
 Merci d'être passé(e) !
-
 
 ![Bye](https://media4.giphy.com/media/fWgQH01z4rjwrZckyM/giphy.gif?cid=ecf05e473o6r3en86t1p2slv0v6x5sqcpuss1x7scy9mt68a&rid=giphy.gif
 "Bye")
