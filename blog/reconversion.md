@@ -2,7 +2,7 @@
 layout: default
 category: blog
 title: "La reconversion dans le dev"
-last_updated: "20/01/2023"
+last_updated: "29/03/2023"
 ---
 
 Vous l'entendez depuis des années : "le secteur informatique est en pénurie" ou encore "il n'y a pas assez de femmes dans les filières scientifiques".
@@ -167,7 +167,7 @@ Vous aurez sans doute des mini-projets à faire pendant votre formation, ne les 
 
 Selon la stack que vous allez choisir, le visuel de votre portfolio sera différent. Si vous voulez vous orienter vers du back-end ce sera plus difficile de faire un site web bling bling avec un super design. L'essentiel n'est pas d'avoir des paillettes partout, c'est de pouvoir montrer ce que vous savez faire. 
 
-Moi qui ne suis pas très douée avec le CSS, je m'étais contentée d'une petite [Github Pages](https://pages.github.com/) présentant les projets que j'avais développé. Je l'ai complètement refaite depuis pour faire ce site mais vous pouvez toujours retrouver la liste des projets persos dans le menu.
+Moi qui ne suis pas très douée avec le CSS, je m'étais contentée d'une petite [Github Pages](https://pages.github.com/) présentant les projets que j'avais développé. Je l'ai complètement refaite depuis pour faire ce site et à la place j'ai créé un petit [template de présentation](https://github.com/GeorgiaLR/visual-identity) en mode CV que vous pouvez réutiliser/customiser à votre guise (par contre c'est du Spring, je fais pas de JS).
 
 Ce qui me semble important, c'est que votre portfolio reflète le besoin ou la problématique à laquelle vous avez voulu répondre et comment vous y avez répondu. Vous pouvez y ajouter des captures d'écran, des vidéos de démo, ou encore mieux le lien vers le site web si vous avez pu le déployer.
 

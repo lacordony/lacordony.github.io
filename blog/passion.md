@@ -2,7 +2,7 @@
 layout: default
 category: blog
 title: "Passion or not passion ?"
-last_updated: "17/02/2023"
+last_updated: "29/03/2023"
 ---
 
 S'il y a bien une chose qui me chiffonne dans l'informatique, c'est cette impression d'être dans une époque médiévale où il faut prêter allégeance au code et être prêt à mourir pour lui.
@@ -55,9 +55,9 @@ Est-ce que pour autant nous sommes de mauvais devs ? Non.
 
 On a tout autant le droit que les autres d'avoir d'autres hobbies / passions sur notre temps libre.
 
-On est de plus en plus à défendre ce point de vue (merci à [@SowPiano](https://twitter.com/SowPiano/status/1617687132516257797?ref_src=twsrc%5Etfw))
+On est de plus en plus à défendre ce point de vue. Merci entre autres à [@SowPiano](https://twitter.com/SowPiano/status/1617687132516257797?ref_src=twsrc%5Etfw) pour son tweet.
 
-Une autre raison importante même si je ne suis pas personnellement concernée mais qui est loin d'être non négligeable : les enfants.
+Autre raison importante, même si je ne suis pas personnellement concernée : les enfants. 
 
 Une personne, dont je n'ai pas retrouvé le tweet, demandait à ce qu'on arrête la folie des side projects. Pourquoi ? Parce qu'elle est maman de 4 enfants et qu'elle a probablement autre chose à faire de son temps libre que de développer le futur super Saas qui va faire vibrer Twitter. 
 
@@ -73,18 +73,18 @@ Dans mon entreprise actuelle, j'ai eu une progression rapide avec de très bons 
 
 Le plus difficile selon moi, c'est pour changer d'entreprise. Même si tu es au top du top dans ta boîte, si tu te vautres à tous tes tests techniques ça devient compliqué (j'en parlerais plus en détails dans un autre article). En plus, je ne vis pas très bien l'échec, ça me ruine le moral. Syndrome de l'imposteur x 1000. 
 
-A un moment j'ai complètement arrêté de postuler parce qu'un entretien m'avait complètement démoralisée. Je m'étais prise des remarques qui sonnaient comme "vous connaissez rien", et qu'en gros je devais travailler pour obtenir une proposition d'embauche.
+À un moment j'ai même arrêté de postuler parce qu'un entretien m'avait complètement démoralisée. Je m'étais prise des remarques qui sonnaient comme "vous connaissez rien", et qu'en gros je devais travailler plus pour espérer obtenir une proposition d'embauche.
 
-Je me suis effondrée face à la liste de sujets que je devais assimiler pour réussir leur test, et ils espéraient que je le fasse en une semaine en plus de mon taff ? Je vous avoue que j'ai abandonné, arrêté de répondre aux recruteurs sur Linkedin et commencé à revoir mes plans de carrière.
+Je me suis effondrée face à la liste de sujets que je devais assimiler pour réussir leur test, et ils espéraient que je le fasse en une semaine en plus de mon taff ? J'ai un peu honte mais j'ai abandonné, j'ai même envisagé de chercher un job autre que dans le dev. Ouais ça m'avait moralement beaucoup affectée.
 
-Je suis développeuse, j'ai un job, je taffe tous les jours et on me dit de bosser car c'est pas suffisant ? Pourquoi je taffe tous les jours ? Pourquoi je me lève si mon travail n'a pas de valeur ?
+En même temps peut-on nous blâmer de se décourager ? Je suis développeuse, j'ai un job, je taffe tous les jours avec beaucoup d'investissement et là on me dit de retourner réviser car c'est pas suffisant ? Pourquoi je taffe tous les jours ? Pourquoi je me lève si mon travail n'a pas de valeur ?
 
-Bref, cette petite période démoralisation m'a fait réfléchir. Je me suis fixée des objectifs de progression, quand j'aurais suffisamment progressé et me sentirais à l'aise, je reprendrais mes recherches.
+Bref, cette petite période démoralisation m'a fait réfléchir. Je me suis fixée des objectifs de progression, quand je me sentirais plus à l'aise et que j'aurais repris confiance, je pense que je reprendrais mes recherches.
 
-On nous dit souvent "vous les femmes vous postulez pas si vous matchez pas à 100% avec l'offre alors qu'il faut tenter". Alors oui je suis d'accord, mais si c'est pour me faire rabaisser à chaque entretien et me déprimer toutes les semaines comme ça, je vous avoue que je perds mon enthousiasme.
+On nous dit souvent "vous les femmes, vous postulez pas si vous matchez pas à 100% avec l'offre, alors qu'il faut tenter". Alors oui je suis d'accord quand j'ai l'impression d'être trop éloignée de l'offre je n'essaie pas, mais en même temps si c'est pour me faire rabaisser comme ça à chaque entretien et me déprimer toutes les semaines, je vous avoue que je préfère filtrer.
 
-Après l'informatique est tellement vaste que je pense qu'aujourd'hui tout le monde peut trouver un poste à son niveau. Tous les jobs ne sont pas aussi techniques qu'on ne le pense. Travailler dans l'IT ne veut pas forcément dire faire du dev non plus. Les sujets et les métiers sont très variés.
+Enfin, gardons la foi, l'informatique est tellement vaste que je pense qu'aujourd'hui tout le monde peut trouver un poste à son niveau. Tous les jobs ne sont pas aussi techniques qu'on ne le pense. Travailler dans l'IT ne veut pas forcément dire faire du dev non plus. Les sujets et les métiers sont très variés.
 
-Il ne faut donc pas se démoraliser et trouver le poste qui vous fera vous sentir à l'aise et surtout éviter les show-off qui vous feront sentir comme une merde.
+Il ne faut donc pas vous démoraliser et trouver le poste qui vous fera vous sentir à l'aise (et surtout éviter les show-off qui vous feront sentir comme une merde).
 
 Je sais que c'est difficile mais tenez bon ! 
