@@ -23,13 +23,18 @@
 
     <ul>
     {% for mynote in site.pages %}
-    {% if mynote.category == "notes" %}
-        {% if mynote.status == "published" %}
-        <li><a href="{{ mynote.url }}" class="my-note">{{ mynote.title }}</a></li>
-        {% else %}
-        <li><a href="{{ mynote.url }}" class="my-note">{{ mynote.title }}</a><span> - (Brouillon)</span></li>
+        {% if mynote.category == "notes" %}
+            {% if mynote.status == "published" %}
+            <li><a href="{{ mynote.url }}" class="my-note">{{ mynote.title }}</a></li>
+            {% endif %}
         {% endif %}
-    {% endif %}
+    {% endfor %}
+    {% for mynote in site.pages %}
+        {% if mynote.category == "notes" %}
+            {% if mynote.status == "brouillon" %}
+            <li><a href="{{ mynote.url }}" class="my-note">{{ mynote.title }}</a><span> - (Brouillon)</span></li>
+            {% endif %}
+        {% endif %}
     {% endfor %}
     </ul>
 

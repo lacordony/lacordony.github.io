@@ -1,8 +1,16 @@
-# Déployer son application Springboot sur Fly.io
+---
+layout: default
+title: "Docker"
+status: brouillon
+---
+
+# Déployer son application Spring Boot sur Fly.io
 
 Cette note a pour objectif d'expliquer comment déployer son dockerfile sur fly.io
 
 ## Installer Fly sur Windows
+
+Vous retrouverez toutes les infos en détails sur la [documentation officielle](https://fly.io/docs/hands-on/install-flyctl/)
 
 Ouvrir Powershell et lancer la commande suivante :
 
@@ -13,8 +21,6 @@ Se connecter à votre compte via la commande suivante :
 ``flyctl auth login``
 
 Personnellement j'ai créé mon compte via mon compte Github
-
-Source : https://fly.io/docs/hands-on/install-flyctl/
 
 
 ## 
