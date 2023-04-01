@@ -2,7 +2,7 @@
 layout: default
 category: blog
 title: "Agile yes, but..."
-last_updated: "28/03/2023"
+last_updated: "01/04/2023"
 status: published
 ---
 
@@ -32,6 +32,8 @@ Dans les équipes que j'ai connu on avait souvent 4 ou 5 dev (dont 1 tech lead),
 
 Dans le monde idéal on t'explique que les membres de l'équipe sont interchangeables, solidaires. Tout le monde peut aider ou se backup de façon à garder un rythme de travail constant quoi qu'il arrive (voir notion de vélocité).
 
+> "L'agile team je crois que c'est la plus grosse blague que j'ai pu croiser. Fallait qu'on s'adapte et qu'on soit prêts à tout sans les moyens qu'allaient avec"
+
 En pratique moi je suis souvent tombée sur des équipes multi-sujets, c'est-à-dire qu'un dev travaillait sur un sujet, deux autres sur un autre sujet, un autre sur un autre sujet mais aucun de nous ne connaissait le sujet des autres. Du coup, le jour où t'étais pas là, personne ne savait traiter le ticket à ta place. C'est vraiment pour moi l'exemple même de ce qu'il ne faut pas faire. À savoir trop spécialiser les individus, au lieu de spécialiser les équipes. 
 
 On s'est retrouvés complètement dépendants de personnes qui un jour sont parties et pouf toute la connaissance est partie avec eux, car les sujets étaient parfois tellement complexes et vastes que même en faisant une passation 1 ou 2 mois ce n'était juste pas suffisant pour être opérationnel. 
@@ -58,6 +60,8 @@ L'objectif étant de s'assurer que les équipes de réalisation disposent de tou
 
 Une fois que tous les critères sont définis, pour chaque feature/us on parcourt la liste et si tous les critères sont bien réunis, la feature/us est ready pour être embarquée par les équipes de réalisation.
 
+> "Le DOR on dirait que tout le monde s'en fout. Y'en a qui l'appliquent sérieusement ?"
+
 En pratique (de mon expérience) tout le monde a l'air de s'en foutre. Soit y'a des critères, soit y'en a pas. Et s'il y'en a on va être très laxiste sur la vérification : "oui, oui c'est bon tous les critères sont réunis".
 
 Et derrière, nous (les devs), on se pose plein de questions.
@@ -79,6 +83,8 @@ En pratique (de mon expérience), soit y'a trop de critères, soit y'en a pas.
 S'il y en a trop ça peut ralentir le processus de delivery, si on met 3 semaines à valider une US qui est développée depuis 2 semaines, qu'est-ce qu'on a raté ? À l'inverse si on ne met pas de critères, on prend de plus gros risques. Quels sont nos engagements ? Comment on se couvre vis-à-vis du client pour garantir que l'on a correctement répondu aux attentes ? Qui prend cette responsabilité en cas de problèmes ?
 
 Mine de rien ce DOD c'est aussi une protection. Pas forcément besoin de 50 critères, définissez l'indispensable qui vous permettra de démontrer que vous avez répondu aux attentes. 
+
+> "Le DOD c'est une protection, il faut être clean sur ce qu'on va délivrer et surtout tracer"
 
 Souvent quand on parle de Jira aux devs ils ont un peu d'urticaire, on aime pas le blabla administratif. J'aimais pas au début non plus. Pourtant, avec l'expérience, j'ai vu que tracer c'était hyper important et Jira c'est super pratique pour ça. Plusieurs fois on a eu des soucis avec des clients et quand tu as des traces écrites ça te sauve la vie. 
 
@@ -104,6 +110,8 @@ Dans le principe ça a l'air facile. Dans les faits pas forcément, j'en ai vu q
 
 En pratique, il arrive souvent que certaines tâches du sprint précédent n'aient pas été terminées pour x ou y raisons. Il faut donc reprioriser pour retirer du sprint ce qui ne pourra plus être embarqué si jamais on se rend compte que ça ne rentre plus dans la capacité. Ensuite, il arrive que l'on avait planifié de commencer un sujet à une certaine date car on attendait quelque chose en pré-requis et que ce que quelque chose qu'on attendait n'arrive finalement pas à la date prévue. On ne peut donc pas démarrer ce sujet qui va être reporté, il faut donc réajuster le planning et regarder quel sujet l'on peut traiter à la place.
 
+> "Tout va bien tant que toutes les priorités ne changent pas du jour au lendemain"
+
 Mine de rien tous ces aléas ça peut faire durer la réunion longtemps et devenir un casse-tête domino.
 
 Ce que j'adore c'est que quand tu suis une formation sur l'agilité on te dit que chaque personne prend des tâches qui lui plaisent dans le backlog et la vie est belle. En fait non, il y a des projets où tu ne choisis pas on te dit "tu prends ça" et puis voilà. Certes tu peux toujours émettre des réserves mais si y'a que ça et que personne d'autre n'est dispo hein ! Have fun !
@@ -122,6 +130,8 @@ Le plus connu. Tous les matins on se regroupe 15min et on synthétise brièvemen
 
 Le but c'est de savoir un peu ce que chacun fait et de remonter les alertes pour pouvoir réagir vite et mettre en place les actions nécessaires.
 
+> "Y'en a à qui on aimerait rappeler qu'ils ne sont pas là pour raconter leur vie."
+
 Sur mon projet actuel on tient bien les 15 minutes et je trouve ça vraiment cool. Sur mon projet précédent c'était un cauchemar, avec certaines équipes il durait 45 minutes parce qui y'en a qui racontaient leur vie. Comme si leur journée d'hier elle avait duré une semaine.
 
 Normalement ce qui se passe, c'est qu'il doit y avoir un time keeper pour faire un peu accélérer les gens et éviter de dépasser l'horaire. Pendant un moment, pour palier au problème, on avait bloqué un créneau de 30 min juste après le daily pour les sujets ad-hoc, si par exemple un sujet débordait pendant le daily on mettait un stop et les gens concernés restaient à la fin pour en discuter entre eux. Ce qui permettait de pouvoir libérer les autres et c'était vachement mieux.
@@ -138,6 +148,8 @@ Pendant la démo on va présenter les sujets qui ont été finalisés et ensuite
 
 En moyenne ça peut durer 1h ou 2 selon le nombre de sujets à démontrer.
 
+> "L'angoisse de l'effet wahou !"
+
 Personnellement c'est vraiment le truc que j'aime le moins en tant que dev, le côté présentation / powerpoint / bling-bling où on te demande de mettre des "effets wahou!" (ce que disait souvent un de mes anciens directeurs de projet). Quand tu taffes sur du parsing XML, l'effet wahou excuse moi, mais ?.. 
 
 À un moment sur un de mes anciens projets on a décidé d'épurer un peu pour gagner du temps et donc de ne montrer vraiment que des fonctionnalités métier significatives pour s'éviter des trucs techniques qui font bailler tout le monde, donc on a laissé la main plus aux profils fonctionnels / business analysts de la team qui maitrisaient mieux aussi le jargon métier ce qui nous permettait de consacrer plus de temps à nos tâches techniques. Et franchement ça m'allait parfaitement ! 
@@ -146,7 +158,7 @@ Personnellement c'est vraiment le truc que j'aime le moins en tant que dev, le c
 
 Ma cérémonie préférée (oui pour de vrai !) aussi appelée "bureau des plaintes". 
 
-Je vais pas dire que j'aime me plaindre, mais qui n'aime pas ?
+> "Je vais pas dire que j'aime me plaindre, mais qui n'aime pas ?"
 
 Le dernier jour du sprint, en général après la review, on fait une retrospective d'équipe. En moyenne je dirais que ça dure 1h30/2h si vous en avez gros sur le coeur.
 
