@@ -60,7 +60,10 @@ Commençons par le commencement, on a besoin d'un job.
 
 #### Annotation et configuration
 
-Pour espérer que quoi que ce soit ne fonctionne il est nécessaire d'ajouter à votre class main l'annotation suivante : `` @EnableBatchProcessing ``
+Pour espérer que quoi que ce soit ne fonctionne il est nécessaire d'ajouter à votre class main l'annotation suivante :
+```
+@EnableBatchProcessing 
+```
 
 Cette annotation va auto-configurer pour vous toutes les classes nécessaires au bon fonctionnement de votre job.
 
