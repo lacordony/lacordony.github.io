@@ -104,33 +104,53 @@ COPY target/*.jar spring-with-docker-0.0.1-SNAPSHOT.jar
 ENTRYPOINT ["java","-jar","/spring-with-docker-0.0.1-SNAPSHOT.jar"]
 ```
 
-Pour récapituler on a besoin de FROM pour définir notre jdk, VOLUME pour définir où l'on exécuter notre conteneur, COPY pour lui dire de copier le jar généré dans notre dossier target. Et enfin ENTRYPOINT qui va contenir la commande que l'on veut lancer à savoir notre java -jar etc...
+Pour récapituler on a besoin de FROM pour définir notre jdk, VOLUME pour définir où vont être stockées les ressources de notre conteneur, COPY pour lui dire de copier le jar généré dans notre dossier target. Et enfin ENTRYPOINT qui va contenir la commande que l'on veut lancer à savoir notre java -jar etc...
 
 Vous retrouverez un petit tableau synthèse des différents arguments en bas de cette note.
 
 NB : Pour un projet javascript par exemple, le dockerfile sera légèrement différent vous utiliserez notamment l'argument RUN. Ce n'est pas la cible de cette note, vous trouverez un [exemple sur la documentation officielle](https://docs.docker.com/get-started/02_our_app/).
 
 
-Pour build l'image correspondante exécutez la commande ci-dessous dans votre terminal (vous pouvez remplacer mon pseudo par votre pseudo) :
+Pour build l'image correspondante exécutez la commande ci-dessous dans votre terminal :
 ```
-docker build -t georgialr/spring-with-docker-demo .
+docker build -t spring-with-docker-demo .
 ```
 
 Votre image apparaitra sur votre docker desktop :
-![docker-build-spring](/assets/img/docker/imageSpringHelloWorld.png)
+![docker-build-spring](/assets/img/docker/imageSpringDemo.png)
 
-Pour lancer votre conteneur, exécutez ensuite la commande ci-dessous dans votre terminal (vous pouvez aussi remplacer mon pseudo par votre pseudo) : 
+Pour lancer votre conteneur, exécutez ensuite la commande ci-dessous dans votre terminal : 
 ```
-docker run -dp 8080:8080 georgialr/spring-with-docker-demo
+docker run -dp 8080:8080 spring-with-docker-demo
 ```
 
 Votre conteneur est lancé :
-![docker-run-spring](/assets/img/docker/containerSpringHelloWorld.png)
+![docker-run-spring](/assets/img/docker/containerSpringDemo.png)
 
 Rendez-vous ensuite à l'adresse localhost:8080 et vous devriez voir le résultat apparaître :
 
 ![docker-localhost-spring](/assets/img/docker/ResultSpringHelloWorld.png)
 
+Cool, cool, cool !
+
+Pour finir, vous voulez sans doute pouvoir partager votre image sur le registry [Docker Hub](https://hub.docker.com/)
+
+On va d'abord relier notre image à notre registry via un tag (remplacez HUB_USERNAME par votre pseudo Docker Hub)
+```
+docker tag spring-with-docker-demo:latest HUB_USERNAME/spring-with-docker-demo:latest
+```
+
+Ensuite on va pusher notre image (remplacez HUB_USERNAME par votre pseudo Docker Hub)
+```
+docker push HUB_USERNAME/spring-with-docker-demo:latest
+```
+
+Le mot "latest" signifie la version la plus récente et celle qui sera prise par défaut. Vous pouvez tout à faire versionner vos images "spring-with-docker-demo:1.0.0" par exemple, mais ce sera toujours latest qui sera téléchargée par défaut.
+
+Vous pouvez vous connecter ensuite sur le docker hub et voir votre image :
+![docker-hub-spring](/assets/img/docker/dockerHubResultPush.png)
+
+À noter qu'il existe d'autres registry comme le [Github Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry) qui vous permet de stocker vos images liées à vos repos Github par exemple. On en reparlera sans doute dans une note pour automatiser le déploiement des images avec des Github Actions.
 
 ## Orchestrer ses conteneurs avec Docker Compose
 
