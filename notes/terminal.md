@@ -18,7 +18,9 @@ Rassurez-vous ce n'est pas très dur.
 
 Ouvrez une fenêtre Powershell en tant qu'administrateur et lancez cette commande :
 
-``wsl --install``
+```
+wsl --install
+```
 
 Par défaut, vous aurez une distribution Ubuntu, si vous voulez en installer une autre je vous renvoie vers cette page : [Modifier la distribution Linux par défaut installée](https://learn.microsoft.com/fr-fr/windows/wsl/install)
 
@@ -30,25 +32,82 @@ Et en gros, c'est terminé.
 
 Précision : ubuntu ne sera pas mis à jour automatiquement par windows, il faudra donc régulièrement mettre à jour votre version via la commande ci-dessous dans votre terrminal ubuntu :
 
-``sudo apt update && sudo apt upgrade``
+```
+sudo apt update && sudo apt upgrade
+```
 
 ## Les commandes utiles
 
-* Afficher le répertoire dans lequel vous vous trouvez : ``pwd``
-* Afficher le contenu d'un dossier : ``ls``
-* Afficher des infos supplémentaires sur le contenu d'un dossier : ``ls -l``
-* Se rendre dans un sous-répertoire : ``cd <nom du répertoire>``
+* Afficher le répertoire dans lequel vous vous trouvez :
+```
+pwd
+```
+* Afficher le contenu d'un dossier :
+```
+ls
+```
+
+* Afficher des infos supplémentaires sur le contenu d'un dossier : 
+```
+ls -l
+```
+
+* Se rendre dans un sous-répertoire :
+```
+cd <nom du répertoire>
+```
+
 Pour aller plus vite vous pouvez commencer à taper le début du nom du répertoire et utiliser tabulation pour compléter
-* Créer un nouveau répertoire : ``mkdir <nom du répertoire>``
-* Créer un nouveau fichier : ``touch <nom du fichier avec extension>``
-* Déplacer un fichier dans un autre répertoire : ``mv <fichier> <répertoire>``
-* Copier un fichier dans un autre répertoire : ``cp <fichier> <répertoire>``
-* Copier un répertoire et son contenu dans un autre répertoire : ``cp -r <répertoire cible> <répertoire destination>``
-* Supprimer un fichier : ``rm <fichier>``
-* Supprimer un répertoire et tout son contenu : ``rm -r <répertoire>``
-* Afficher le contenu d'un fichier : ``cat <fichier>``
-* Afficher le contenu d'un fichier avec navigation : ``less <fichier>``
-* Chercher des éléments : ``grep <ce que je cherche> <où je le cherche>``
+
+* Créer un nouveau répertoire : 
+```
+mkdir <nom du répertoire>
+```
+
+* Créer un nouveau fichier : 
+```
+touch <nom du fichier avec extension>
+```
+
+* Déplacer un fichier dans un autre répertoire :
+```
+mv <fichier> <répertoire>
+```
+
+* Copier un fichier dans un autre répertoire : 
+```
+cp <fichier> <répertoire>
+```
+
+* Copier un répertoire et son contenu dans un autre répertoire : 
+```
+cp -r <répertoire cible> <répertoire destination>
+```
+
+* Supprimer un fichier :
+```
+rm <fichier>
+```
+
+* Supprimer un répertoire et tout son contenu :
+```
+rm -r <répertoire>
+```
+
+* Afficher le contenu d'un fichier :
+```
+cat <fichier>
+```
+
+* Afficher le contenu d'un fichier avec navigation : 
+```
+less <fichier>
+```
+
+* Chercher des éléments : 
+```
+grep <ce que je cherche> <où je le cherche>
+```
 
 ## Besoin d'une formation quand même ?
 

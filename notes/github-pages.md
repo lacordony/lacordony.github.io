@@ -26,7 +26,10 @@ Vous verrez que j'utilise par exemple le thème "Architect" que j'ai très peu m
 
 ### Créer son repository Github
 
-Le nom de votre repository doit respecter une certaine syntaxe pour qu'il soit reconnu en tant que Github Pages : ``<username>.github.io``
+Le nom de votre repository doit respecter une certaine syntaxe pour qu'il soit reconnu en tant que Github Pages : 
+```
+<username>.github.io
+```
 
 Pour plus de détails voir : [Créer son site avec Github Pages](https://docs.github.com/fr/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
@@ -48,7 +51,7 @@ En synthèse, il faudra :
 
 * Ajouter le thème dans votre _config.yml, par exemple pour le thème Architect j'ai ajouté :
 
-  ```config.yml
+  ```
   remote_theme: pages-themes/architect@v0.2.0
   plugins:
     - jekyll-remote-theme
@@ -66,7 +69,9 @@ Je suis obligée de vous mettre une image sinon ma page interprète la syntaxe L
 
 Une fois votre projet installé et créé, vous pouvez le build pour voir le résultat en local via la commande :
 
-``bundle exec jekyll serve``
+```
+bundle exec jekyll serve
+```
 
 Votre site sera accessible à l'adresse : [http://localhost:4000](http://localhost:4000)
 
@@ -158,11 +163,15 @@ Pour l'exemple, j'ai voulu ajouter un plugin pour pouvoir insérer des emojis da
 
 Pour ce faire, vous allez ajouter le plugin 'jemoji' à votre Gemfile :
 
-``gem 'jemoji'``
+```
+gem 'jemoji'
+```
 
 Ensuite vous allez télécharger la dépendance via la commande :
 
-``bundle install``
+```
+bundle install
+```
 
 Et normalement en relançant votre application, ça devrait être ok.
 
