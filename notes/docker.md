@@ -1,9 +1,9 @@
 ---
 layout: default
 category: notes
-title: "Docker"
-status: brouillon
-last_updated: "01/04/2023"
+title: "Débuter avec Docker"
+status: published
+last_updated: "02/04/2023"
 ---
 
 
@@ -90,7 +90,7 @@ docker stop <ID_DU_CONTAINER>
 ```
 
 Une précision importante. Lorsque vous stoppez votre conteneur toute donnée sera perdue, c'est ce qu'on appelle un conteneur stateless (sans état). C'est à dire qu'il n'y a aucune persistance de données dans le conteneur.
-Si vous voulez héberger par exemple une base de données, vous devrez utiliser un conteneur statefull (avec état) qui ne supprimera pas les données à l'arrêt du conteneur.
+Si vous voulez héberger par exemple une base de données, vous devrez utiliser un conteneur stateful (avec état) qui ne supprimera pas les données à l'arrêt du conteneur.
 
 ## Créer son premier dockerfile 
 
@@ -154,7 +154,68 @@ Vous pouvez vous connecter ensuite sur le docker hub et voir votre image :
 
 ## Orchestrer ses conteneurs avec Docker Compose
 
-A suivre
+Lancer un conteneur c'est bien, mais dans la réalité vous aurez probablement rarement un seul conteneur à lancer pour faire tourner votre application.
+
+Cas typique numéro 1, votre base de données doit être dans un conteneur stateful donc il est probable que vous vouliez l'isoler du reste. Autre cas possible vous avez une application front et une application back qui sont packagées dans deux projets différents. Ou encore vous avez une architecture micro-services avec plein de services que vous voulez séparer mais qui ont besoin les uns des autres.
+
+Pour être certain que l'on retrouve tous nos petits, on voudrait s'assurer que notre déploiement n'oublie personne. Ce serait dommage de ne déployer que la moitié de l'application.
+
+Pour ça on peut utiliser Docker-compose qui est un orchestrateur de conteneurs.
+
+Cette fois, on ne va plus utiliser un Dockerfile mais un fichier yaml : docker-compose.yml.
+
+Partant de notre projet Spring de Demo, imaginons que l'on ait besoin de se connecter à une base de données MySQL pour enregistrer ou lire des informations.
+
+Pour cela, nous allons créer un fichier docker-compose.yml pour orchestrer nos deux conteneurs.
+
+Ce qu'il faut retenir c'est que ce fichier contient votre stack, et que cette stack est composée d'un ensemble de services (les différents conteneurs).
+
+Rendez-vous sur la branche "docker-compose" du [repo de Demo]() pour utiliser le fichier déjà prêt (remplacez HUB_USERNAME si vous avez push l'image sinon vous pouvez utiliser mon pseudo georgialr)
+
+```
+version: '3.1'
+services:
+  db:
+    image: mysql:5.7
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: powerpass
+      MYSQL_DATABASE: demo
+      MYSQL_USER: springuser
+      MYSQL_PASSWORD: springpass
+
+  spring-demo:
+    depends_on:
+      - db
+    image: HUB_USERNAME/spring-with-docker-demo:latest
+    ports:
+      - "8000:80"
+    restart: always
+
+volumes:
+  db_data: {}
+```
+
+Qu'est-ce que nous raconte ce fichier ?
+
+Tout d'abord on lui indique la version de Docker-compose que l'on veut utiliser. Ensuite on va lui lister nos services, dans notre cas nous avons 2 services notre db Mysql et notre application Spring de demo. Chaque service va contenir ses propres paramètres notamment le nom de l'image associée. Vous pouvez vous rendrez sur le docker hub de l'image pour avoir un exemple détaillé de tous les paramètres attendus de votre image. Pour le cas de MySQL on va lui attribuer un volume qui permettra d'assurer la persistance de données pour qu'elles ne soient pas perdues au redémarrage du service.
+
+Pour build votre package exécutez la commande suivante :
+```
+docker-compose pull
+```
+
+Enfin pour lancer vos conteneurs lancez la commande : 
+```
+docker-compose up -d
+```
+
+Vos conteneurs sont lancés :
+
+![docker-compose-result](/assets/img/docker/dockerComposeSpringDemo.png)
+
 
 ## En synthèse : les commandes
 
@@ -243,3 +304,53 @@ Les layers sont en lecture seule et ne peuvent être modifiés.
 | EXPOSE     | Permet de définir un port par défaut            |
 
 Vous pouvez retrouver une description détaillée sur [cette cheatsheet](https://kapeli.com/cheat_sheets/Dockerfile.docset/Contents/Resources/Documents/index)
+
+### Docker-compose
+
+* Vérifier la validité de votre fichier docker-compose.yml
+```
+docker-compose config
+```
+
+* Télécharger les images de votre stack
+```
+docker-compose pull
+```
+
+* Lancer les conteneurs de votre stack
+```
+docker-compose up -d
+```
+
+* Vérifier le statut de votre stack
+```
+docker-compose ps
+```
+
+* Vérifier les logs de votre stack
+```
+docker-compose logs -f --tail 5
+```
+
+* Stopper les conteneurs de votre stack
+```
+docker-compose stop
+```
+
+* Supprimer le contenu de la stack 
+```
+docker-compose down
+```
+
+Récapitulatif des arguments du fichier docker-compose.yml :
+
+| Commande    | Description                                          |
+|-------------|------------------------------------------------------|
+| version     | La version de docker compose utilisée                |
+| image       | le nom de l'image à télécharger                      |
+| volumes     | le chemin vers le volume persistant le cas échéant   |
+| restart     | le comportement en cas d'erreur, doit il se relancer |
+| environment | les variables d'environnement à ajouter (key/value)  |
+| depends_on  | si un conteneur dépend d'un autre pour se lancer     |
+| ports       | les ports du service le cas échéant                  |
+
