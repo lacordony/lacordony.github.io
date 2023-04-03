@@ -60,7 +60,6 @@ Là encore de plus en plus de choses se développent.
 * L'extension [NumEcoDiag](https://chrome.google.com/webstore/detail/num%C3%A9codiag/fhdeahmddgflanbgilcglipaeofmcabc)
 * Sonarqube avec le [Challenge Ecocode](https://challenge.ecocode.io/), j'aurais bien aimé y participer mais ça tombait pile quand je devais me faire opérer, ce sera peut-être pour l'année prochaine
 * [Scaphandre](https://github.com/hubblo-org/scaphandre) pour mesurer la consommation électrique des services IT
-* [Outils de minification](https://css-tricks.com/tools-for-optimizing-svg/)
 * [Optimizilla](https://imagecompressor.com/) pour la compression des images
 * [Wave](https://wave.webaim.org/) pour vérifier l'accessibilité d'un site web
 
