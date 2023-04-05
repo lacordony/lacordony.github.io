@@ -2,6 +2,7 @@
 layout: default
 permalink: /blog/:basename
 category: blog
+image: "/assets/img/social/social-logo-full.png"
 title: "Le Green IT on s'y met quand ?"
 status: published
 last_updated: "03/04/2023"

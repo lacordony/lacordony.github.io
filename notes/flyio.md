@@ -2,6 +2,7 @@
 layout: default
 permalink: /notes/:basename
 category: notes
+image: "/assets/img/social/social-logo-full.png"
 title: "Déployer son application Spring Boot sur Fly.io"
 status: published
 last_updated: "01/04/2023"

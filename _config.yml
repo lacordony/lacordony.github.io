@@ -7,8 +7,8 @@ github_username:  GeorgiaLR
 
 ## SEO
 twitter:
-  username: GeorgiaLR
-  card: summary
+  username: G3orgiaLR
+  card: summary_large_image
 
 # Build settings
 remote_theme: pages-themes/architect@v0.2.0
