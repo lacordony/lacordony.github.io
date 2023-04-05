@@ -270,6 +270,7 @@ DEPENDENCIES
   github-pages
   jekyll (~> 3.9.0)
   jekyll-feed (~> 0.12)
+  jekyll-seo-tag
   jemoji
   tzinfo (~> 1.2)
   tzinfo-data
