@@ -2,7 +2,7 @@ title: L'univers de Georgia
 description: >- # this means to ignore newlines until "baseurl:"
   Une page dev & chill
 baseurl: ""
-url: ""
+url: "https://georgialr.github.io/"
 github_username:  GeorgiaLR
 
 # Build settings
