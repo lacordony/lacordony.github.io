@@ -21,6 +21,18 @@
 
       gtag('config', 'G-M2YB9PGFYJ');
     </script>
+
+    <!-- Meta for social medias -->
+    <meta name="twitter:card" content="L'univers de Georgia" />
+    <meta name="twitter:creator" content="@G3orgiaLR" />
+    {% if site.github.is_project_page %}
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:title" content="{{ page.title }}" />
+    {% else %}
+    <meta property="og:url" content="{{ site.url | absolute_url }}" />
+    <meta property="og:title" content="{{ site.title }}" />
+    {% endif %}
+    <meta property="og:image" content="{{ '/assets/img/social/social-logo-full.png' | absolute_url }}" />
 </head>
 
 <body>
