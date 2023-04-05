@@ -2,6 +2,7 @@
 layout: default
 permalink: /notes/:basename
 category: notes
+image: "/assets/img/social/social-logo-full.png"
 title: "Créer son blog avec Github Pages"
 last_updated: "21/01/2023"
 status: published

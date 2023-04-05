@@ -2,6 +2,7 @@
 layout: default
 permalink: /notes/:basename
 category: notes
+image: "/assets/img/social/social-logo-full.png"
 title: "Terminal et commandes Linux"
 last_updated: "16/02/2023"
 status: published
