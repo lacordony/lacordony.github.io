@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /blog/:basename
 category: blog
 title: "Passion or not passion ?"
 last_updated: "29/03/2023"

@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/:basename
 title: "Les variables"
 last_updated: "10/12/2022"
 ---

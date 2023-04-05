@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/:basename
 category: notes
 title: "Principes SOLID"
 last_updated: "15/12/2022"
