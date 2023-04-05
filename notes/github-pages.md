@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/:basename
 category: notes
 title: "Créer son blog avec Github Pages"
 last_updated: "21/01/2023"

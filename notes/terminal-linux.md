@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/:basename
 category: notes
 title: "Terminal et commandes Linux"
 last_updated: "16/02/2023"

@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/:basename
 category: notes
 title: "Débuter avec Docker"
 status: published

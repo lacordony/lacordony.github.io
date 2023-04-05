@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /blog/:basename
 category: blog
 title: "Agile yes, but..."
 last_updated: "01/04/2023"

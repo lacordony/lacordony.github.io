@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/:basename
 category: notes
 title: "Domain-Driven Design (DDD)"
 last_updated: "21/01/2023"

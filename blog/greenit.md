@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /blog/:basename
 category: blog
 title: "Le Green IT on s'y met quand ?"
 status: published

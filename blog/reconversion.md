@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /blog/:basename
 category: blog
 title: "La reconversion dans le dev"
 last_updated: "29/03/2023"

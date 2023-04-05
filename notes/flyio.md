@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/:basename
 category: notes
 title: "Déployer son application Spring Boot sur Fly.io"
 status: published

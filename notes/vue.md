@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/:basename
 title: "Vue.js"
 ---
 

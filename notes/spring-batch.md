@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/:basename
 category: notes
 title: "Spring Batch"
 last_updated: "16/02/2023"
