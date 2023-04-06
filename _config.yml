@@ -25,9 +25,9 @@ plugins:
 
 defaults:
   - scope:
-      path: "assets/img"
+      path: ""
     values:
-      image: true
+      image: "assets/img/social/social-logo-full.png"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

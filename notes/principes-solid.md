@@ -2,7 +2,6 @@
 layout: default
 permalink: /notes/:basename
 category: notes
-image: "/assets/img/social/social-logo-full.png"
 title: "Principes SOLID"
 last_updated: "15/12/2022"
 status: published
