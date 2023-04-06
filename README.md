@@ -1,6 +1,5 @@
 ---
 title: "Hello World !"
-image: "/assets/img/social/social-logo-full.png"
 layout: default
 permalink: /
 last_updated: "18/02/2023"
