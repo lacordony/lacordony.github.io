@@ -2,7 +2,6 @@
 layout: default
 permalink: /blog/:basename
 category: blog
-image: "/assets/img/social/social-logo-full.png"
 title: "La reconversion dans le dev"
 last_updated: "29/03/2023"
 ---

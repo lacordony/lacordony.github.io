@@ -1,9 +1,8 @@
 ---
+title: "Hello World !"
 layout: default
 permalink: /
-image: "/assets/img/social/social-logo-full.png"
 last_updated: "18/02/2023"
-title: "Hello World !"
 ---
 
 Cette Github Page est un petit site perso qui me permettra de vous faire découvrir qui je suis en tant que développeuse.

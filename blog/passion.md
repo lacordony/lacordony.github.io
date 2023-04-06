@@ -2,7 +2,6 @@
 layout: default
 permalink: /blog/:basename
 category: blog
-image: "/assets/img/social/social-logo-full.png"
 title: "Passion or not passion ?"
 last_updated: "29/03/2023"
 ---

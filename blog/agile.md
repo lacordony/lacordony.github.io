@@ -2,7 +2,6 @@
 layout: default
 permalink: /blog/:basename
 category: blog
-image: "/assets/img/social/social-logo-full.png"
 title: "Agile yes, but..."
 last_updated: "01/04/2023"
 status: published

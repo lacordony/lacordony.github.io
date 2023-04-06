@@ -2,7 +2,6 @@
 layout: default
 permalink: /notes/:basename
 category: notes
-image: "/assets/img/social/social-logo-full.png"
 title: "Débuter avec Docker"
 status: published
 last_updated: "02/04/2023"
