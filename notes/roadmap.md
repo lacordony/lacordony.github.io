@@ -1,4 +1,10 @@
-
+---
+layout: default
+permalink: /notes/:basename
+title: "Roadmap Java"
+category: notes
+published: false
+---
 # Roadmap Java
 
 L'objectif de cette note est de faire une petite liste chronologique des notes afin de savoir par où commencer.
