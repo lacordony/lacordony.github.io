@@ -3,7 +3,7 @@ layout: NoteLayout
 permalink: /notes/:basename
 category: notes
 title: "Spring Batch"
-last_updated: "16/02/2023"
+last_updated: "01/05/2023"
 published: false
 status: brouillon
 ---
@@ -48,35 +48,29 @@ Après je comprends le choix de passer par un XML, c'était plus facile à modif
 
 Vous ne verrez pas de configuration XML dans mes repos Git, mais j'essaierais si j'ai le temps et que c'est possible de vous montrer les deux façons de faire dans cette note.
 
-Je ne vais pas vous faire une demo de [Spring Initializr](https://start.spring.io/) ici, vous pouvez jeter un oeil aux dépendances qui peuvent être nécessaires dans ce [Pom.xml](https://github.com/DevGeorgia/spring-batch-sample/blob/main/pom.xml)
+Je ne vais pas vous faire une demo de [Spring Initializr](https://start.spring.io/) ici, vous pouvez jeter un oeil aux dépendances qui peuvent être nécessaires dans ce [Pom.xml](https://github.com/DevGeorgia/spring-batch-demo/pom.xml)
 
 ### Avant-propos : versions de Spring
 
 Lorsque j'ai suivi ma formation, nous étions en Spring version 2.7.1, j'ai constaté que certaines API étaient devenues deprecated depuis (JobBuilderFactory, StepBuilderFactory).
 
-J'ai donc adapté les exemples ci-dessous en Spring version 3.0.1, dans mon repo git vous trouverez les exemples dans le package "lco.sample.app" mais vous pourrez toujours retrouver au besoin les anciens exemples dans le package "lco.training"
+J'ai donc créé un repo git pour refaire un exemple adapté en Spring version 3.0.6. Ce n'est pas une mince affaire quand les choses changent de migrer vers une nouvelle version.
 
 ### Job
 
 Commençons par le commencement, on a besoin d'un job.
 
-#### Annotation et configuration
+#### Annotations et configuration
 
-Pour espérer que quoi que ce soit ne fonctionne il est nécessaire d'ajouter à votre class main l'annotation suivante :
-```
-@EnableBatchProcessing 
-```
+Précision : En Spring Boot 2 vous avez pu voir cette annotation @EnableBatchProcessing qui était indispensable au lancement de vos jobs. En Spring Boot 3, le comportement de l'annotation a changé. Si vous l'activez vos batchs ne se lanceront pas automatiquement au démarrage c'est un peu devenu l'équivalent de la property : spring.batch.job.enabled=false
+Donc si vous voulez que votre code s'exécute au lancement ne l'ajoutez pas. J'ai perdu un temps fou à chercher pourquoi mes jobs ne fonctionnaient plus, j'ai eu du mal à trouver cette info pourtant centrale.
 
-Cette annotation va auto-configurer pour vous toutes les classes nécessaires au bon fonctionnement de votre job.
+La classe contenant votre job doit être annotée par @Configuration
 
 ```
-@SpringBootApplication
-@EnableBatchProcessing
-public class SpringBatchApplication {
+@Configuration
+public class MyJob {
 
-    public static void main(String[] args) {
-        SpringApplication.run(SpringBatchApplication.class, args);
-    }
 }
 ```
 
@@ -86,6 +80,47 @@ Important à savoir et à comprendre, un job a besoin d'une base de données pou
 
 Il faut donc lui fournir une datasource pour que le job repository puisse aller sauvegarder les informations dans la base de données.
 
+Par défaut si vous ne lui donnez rien, il va créer une base In Memory H2. Utile pour vos tests mais déconseillé pour une vraie application car si vous éteignez votre serveur vous perdez tout.
+
+* Application.properties
+
+Voici un exemple de properties pour une base Mysql :
+
+```
+spring.datasource.url=jdbc:mysql://<URL>:<PORT>/<DB_NAME>
+spring.datasource.username=<USERNAME>
+spring.datasource.password=<PASSWORD>
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+#Crée le schéma et les tables au démarrage
+spring.batch.initialize-schema=always
+```
+
+Alors ça c'est bien, mais en réalité, est ce que vous avez envie de mélanger votre DB qui va gérer vos jobs et la DB qui va gérer vos vraies données ? (Celles que vous allez migrer)
+
+Vous pouvez tout à fait avoir 2 datasources distincts.
+
+```
+spring.batchdatasource.url=jdbc:mysql://<URL>:<PORT>/<DB_NAME>
+spring.batchdatasource.username=<USERNAME>
+spring.batchdatasource.password=<PASSWORD>
+spring.batchdatasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+spring.realdatasource.url=jdbc:mysql://<URL>:<PORT>/<DB_NAME>
+spring.realdatasource.username=<USERNAME>
+spring.realdatasource.password=<PASSWORD>
+spring.realdatasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+#Crée le schéma et les tables au démarrage
+spring.batch.initialize-schema=always
+```
+
+* Classe Datasource
+
+
+
+
+
 #### Job launcher
 
 
@@ -93,6 +128,9 @@ Il faut donc lui fournir une datasource pour que le job repository puisse aller 
 #### Job Parameters
 
 #### Job Status
+
+
+### Step : Tasklet
 
 
 
@@ -113,13 +151,16 @@ Pour notre exemple, je vais partir du principe que le format A sera un CSV et le
 Voici un exemple de ce que contiendra le CSV d'input :
 
 ```
-
+ID;First Name;Last Name;area;exam;score
+1;John;Smith;Geography;Oceans;8
+2;Pierre;Dupont;History;World war One;4
+3;Paul;Durant;Maths;Pythagore;5
+4;Jack;King;Geography;Oceans;10
 ```
-
 
 #### Item Reader
 
-L'item reader va être en charge de parser le fichier d'input (A) pour le découper en items qui correspondront à la classe modèle que vous avez défini.
+L'item reader va être en charge de parser le fichier d'input (A) pour le découper en items (chunks) qui correspondront à la classe modèle que vous avez défini.
 
 Mon modèle sera la classe : "StudentCsv" dans laquelle je vais indiquer les attributs que je veux récupérer et à quelle colonne ils correspondent dans mon fichier CSV.
 
@@ -139,7 +180,7 @@ public class StudentCsv {
     private String area;
     
     // Nom de l'examen
-    private String examTitle;
+    private String exam;
     
     // Note de l'étudiant
     private int note;
@@ -149,8 +190,6 @@ public class StudentCsv {
 }
 ```  
 
-
-
 #### Processor (optionnel)
 
 
@@ -158,12 +197,11 @@ public class StudentCsv {
 #### Item Writer
 
 
-### Step : Tasklet
+### Listeners
+
 
 
 ### Job et REST API
 
-#### Annotation
 
-### Listener
 
