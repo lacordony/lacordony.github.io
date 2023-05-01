@@ -1,4 +1,10 @@
-# Security
+---
+layout: default
+permalink: /notes/:basename
+title: "La sécurité en Java"
+category: notes
+published: false
+---
 
 Quelques petites règles basiques de sécurité en java
 

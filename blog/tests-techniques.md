@@ -3,6 +3,8 @@ layout: default
 permalink: /blog/:basename
 title: "Entretiens et tests techniques"
 last_updated: "21/01/2023"
+category: blog
+published: false
 ---
 
 

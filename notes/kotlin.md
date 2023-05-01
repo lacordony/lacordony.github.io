@@ -1,4 +1,10 @@
-
+---
+layout: default
+permalink: /notes/:basename
+title: "Kotlin"
+category: notes
+published: false
+---
 
 
 

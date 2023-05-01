@@ -2,6 +2,8 @@
 layout: default
 permalink: /notes/:basename
 title: "Vue.js"
+category: notes
+published: false
 ---
 
 Je sais que je vous avais promis du java mais quelques connaissances front-end sont toujours bonnes à prendre.

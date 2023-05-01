@@ -1,8 +1,13 @@
+---
+layout: default
+permalink: /notes/:basename
+title: "Tailwind CSS"
+category: notes
+published: false
+---
 
 
-### Tailwind CSS - optional
-
-Ce n'est pas obligatoire, mais Tailwind CSS est un bon complément front pour le design de votre application
+### Tailwind CSS
 
 ``` Vue.js
 npm install -D tailwindcss postcss autoprefixer
