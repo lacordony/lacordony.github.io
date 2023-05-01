@@ -2,7 +2,8 @@
 layout: default
 permalink: /notes/:basename
 title: "Design Patterns"
-
+category: notes
+published: false
 ---
 
 # Design Patterns

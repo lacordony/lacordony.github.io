@@ -3,6 +3,8 @@ layout: default
 permalink: /notes/:basename
 title: "Les variables"
 last_updated: "10/12/2022"
+category: notes
+published: false
 ---
 
 Une variable permet de stocker une donnée (= valeur) en mémoire pour qu'elle soit utilisée par le programme.
