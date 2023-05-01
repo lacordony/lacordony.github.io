@@ -4,7 +4,6 @@ permalink: /notes/:basename
 category: notes
 title: "Spring Batch"
 last_updated: "01/05/2023"
-published: false
 status: brouillon
 ---
 
@@ -192,16 +191,28 @@ public class StudentCsv {
 
 #### Processor (optionnel)
 
+Le Processor n'est pas une classe obligatoire. Elle vous permet de transformer les données entre le reader et le writer si vous avez des ajustements à faire sur vos données. Admettons que vous deviez faire certains checks ou appliquer certaines règles pour qu'elles soient compatibles avec votre logiciel B.
+
+Dans notre petit use case, on va considérer que l'on doit faire évoluer l'attribute "note". La note étant un chiffre entre 0 et 10 dans le logiciel A mais malheureusement le logiciel B se voulant désormais moins punitif, celui-ci n'accepte pas les notes chiffrées mais seulement des appréciations. On va donc devoir faire un mapping entre la note et l'appréciation.
+
+
 
 
 #### Item Writer
 
+L'item writer va être en charge d'écrire chaque item (chunk) dans votre source (B), dans notre cas un fichier JSON, en fonction de la classe modèle que vous lui avez affecté.
 
-### Listeners
+
+
+
+### Listeners (optionnel)
+
 
 
 
 ### Job et REST API
 
+Vous n'avez pas forcément envie que vos jobs se lancent au démarrage de votre spring boot, vous pourriez avoir envie de le déclencher par un webservices.
 
+C'est possible et ce sera prochainement.
 
