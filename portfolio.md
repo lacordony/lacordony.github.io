@@ -37,7 +37,7 @@ Du coup c'est un peu plus compliqué de se la raconter en soirée devant les ami
 
 C'est comme ça qu'à chaque réunion de famille, ma mère me dit un truc du genre : "Réexplique-moi ce que tu fais, je sais jamais expliquer quand on me demande"
 
-![Rien compris](https://media1.giphy.com/media/ehywF7d8Hyzz5y9YA1/giphy.gif?cid=790b7611f766d51018a42066095516749b548e4abfcf911a&rid=giphy.gif
+![img-meme](https://i.imgflip.com/7so9kt.jpg
 "Rien compris")
 
 

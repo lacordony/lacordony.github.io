@@ -12,7 +12,8 @@ Quand on lit ça partout, tout le temps, on a tendance à penser que trouver un 
 
 Alors vous vous dites, pourquoi pas moi ?
 
-![money](https://media.giphy.com/media/ekBL7F6GgOaxsPKkIU/giphy.gif)
+![img-meme](https://i.imgflip.com/7soc8z.jpg
+"free money")
 
 Je vais vous épargner les discours "Quand on veut, on peut. Tout le monde peut y arriver. Si j'ai réussi tout le monde peut le faire". Pourquoi je n'aime pas ce genre de discours ? Parce que je trouve qu'ils donnent une image un peu biaisée du "Tout le monde réussit".
 

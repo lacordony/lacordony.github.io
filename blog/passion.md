@@ -8,7 +8,8 @@ last_updated: "29/03/2023"
 
 S'il y a bien une chose qui me chiffonne dans l'informatique, c'est cette impression d'être dans une époque médiévale où il faut prêter allégeance au code et être prêt à mourir pour lui.
 
-![Code War](https://media.giphy.com/media/kaa3ppCuclL08AKlEQ/giphy.gif)
+![img-meme](https://i.imgflip.com/7sobc6.jpg
+"Side projects terminator")
 
 Alors oui, mais non.
 
