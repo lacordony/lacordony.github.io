@@ -48,7 +48,7 @@ Après je comprends le choix de passer par un XML, c'était plus facile à modif
 
 Vous ne verrez pas de configuration XML dans mes repos Git, mais j'essaierais si j'ai le temps et que c'est possible de vous montrer les deux façons de faire dans cette note.
 
-Je ne vais pas vous faire une demo de [Spring Initializr](https://start.spring.io/) ici, vous pouvez jeter un oeil aux dépendances qui peuvent être nécessaires dans ce [Pom.xml](https://github.com/GeorgiaLR/spring-batch-sample/blob/main/pom.xml)
+Je ne vais pas vous faire une demo de [Spring Initializr](https://start.spring.io/) ici, vous pouvez jeter un oeil aux dépendances qui peuvent être nécessaires dans ce [Pom.xml](https://github.com/DevGeorgia/spring-batch-sample/blob/main/pom.xml)
 
 ### Avant-propos : versions de Spring
 

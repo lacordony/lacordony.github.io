@@ -32,7 +32,7 @@ La partie back-end n'est pas partagée sur Github mais elle était faite en PHP 
 
 ### Code
 
-Source code : [Link](https://github.com/GeorgiaLR/LibrarySvg)
+Source code : [Link](https://github.com/DevGeorgia/LibrarySvg)
 
 ## Screenshots
 

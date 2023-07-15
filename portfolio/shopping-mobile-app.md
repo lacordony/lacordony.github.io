@@ -25,7 +25,7 @@ android, Cordova
 
 ### Code
 
-Source code : [Link](https://github.com/GeorgiaLR/EasyShop)
+Source code : [Link](https://github.com/DevGeorgia/EasyShop)
 
 ## Screenshots
 
