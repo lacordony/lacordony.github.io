@@ -175,9 +175,10 @@ Si vous voulez des exemples de mini-jeux pour vous aider à démarrer : [les 3 p
 
 Pour les jours de flemme, on se faisait un tableau tout bidon avec 3 colonnes du style : "encore, peut mieux faire, stop" et chacun mettait un gif dans chaque colonne pour illustrer son mood. C'était assez marrant.
 
-Donc pour conclure je vais finir par un gif qui représentera les sprints
+Donc pour conclure, je vais finir par un gif qui représentera les sprints
 
-![Never Ends](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGJlYzZhZDU4MGM2YjZmODUzYTFhOTZiNWRhZjdiNmM0ODU0ZWNlOCZjdD1n/xT5LMzzuOJlH3yCcgw/giphy.gif)
+![img-meme](https://i.imgflip.com/7soauz.jpg
+"Ceremonies Everywhere")
 
 
 

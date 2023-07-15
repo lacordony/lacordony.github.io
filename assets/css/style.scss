@@ -22,6 +22,10 @@ img {
     border: 1px solid black;
 }
 
+img[alt=img-meme] {
+ width: 25em;
+}
+
 .emoji {
     border: none;
 }

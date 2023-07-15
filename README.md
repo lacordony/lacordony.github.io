@@ -41,5 +41,5 @@ Ce n'est pas ce à quoi tu t'attendais ? Désolée de te décevoir.
 
 Merci d'être passé(e) !
 
-![Bye](https://media4.giphy.com/media/fWgQH01z4rjwrZckyM/giphy.gif?cid=ecf05e473o6r3en86t1p2slv0v6x5sqcpuss1x7scy9mt68a&rid=giphy.gif
+![img-meme](https://i.imgflip.com/7so87f.jpg
 "Bye")
