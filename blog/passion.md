@@ -8,8 +8,8 @@ last_updated: "29/03/2023"
 
 S'il y a bien une chose qui me chiffonne dans l'informatique, c'est cette impression d'être dans une époque médiévale où il faut prêter allégeance au code et être prêt à mourir pour lui.
 
-![img-meme](https://i.imgflip.com/7sobc6.jpg
-"Side projects terminator")
+![Side projects terminator](https://i.imgflip.com/7sobc6.jpg
+"img-meme")
 
 Alors oui, mais non.
 
@@ -37,7 +37,7 @@ Beaucoup me répondront "mais oui mais faut s'entraîner, se former". Quand ? Su
 
 Le marché de l'emploi nous laisse penser que l'on est jamais assez bien, que l'on en sait pas assez et qu'il en faut toujours plus. Cela alimente notre syndrome de l'imposteur, encore plus chez les gens qui comme moi sont issus de reconversion et n'ont pas 5 ans d'études d'ingénieur derrière eux. 
 
-J'ai systématiquement cette impression de devoir rattraper ces 5 années d'études durant mes week-ends pour avoir un temps soit peu l'impression d'être légitimes.
+J'ai systématiquement cette impression de devoir rattraper ces 5 années d'études durant mes week-ends pour avoir un temps soit peu l'impression d'être légitime.
 
 > "Arrêtez d'alimenter nos syndromes de l'imposteur." 
 

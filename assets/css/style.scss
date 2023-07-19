@@ -18,11 +18,11 @@ body {
     font-size: 1em;
 }
 
-img {
+img[title=img-code] {
     border: 1px solid black;
 }
 
-img[alt=img-meme] {
+img[title=img-meme] {
  width: 25em;
 }
 

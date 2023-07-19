@@ -77,11 +77,11 @@ fly open
 
 Et voir le résultat apparaître : *magic effect*
 
-![fly-deploy](/assets/img/fly/flydeploySpringDemo.png)
+![fly-deploy](/assets/img/fly/flydeploySpringDemo.png "img-code")
 
 Rendez-vous sur votre [dashboard fly.io](https://fly.io/dashboard) pour voir votre application tourner.
 
-![fly-deploy](/assets/img/fly/flyDashboard.png)
+![fly-deploy](/assets/img/fly/flyDashboard.png "img-code")
 
 
 
