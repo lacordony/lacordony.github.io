@@ -41,5 +41,5 @@ Ce n'est pas ce à quoi tu t'attendais ? Désolée de te décevoir.
 
 Merci d'être passé(e) !
 
-![Bye](https://i.imgflip.com/7so87f.jpg
+![Bye](/assets/img/meme/gone.jpg
 "img-meme")

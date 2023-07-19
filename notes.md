@@ -21,7 +21,7 @@ Et c'est ainsi que sont nées, les notes de Georgia !
 
 Vous retrouverez dans le menu de droite la liste des notes disponibles. :arrow_right:
 
-![Notes or no notes](https://i.imgflip.com/7soa8k.jpg
+![Notes or no notes](/assets/img/meme/notes.jpg
 "img-meme")
 
 Ce sont des "brouillons", je prends des notes et les enrichis au fur à mesure donc elles peuvent être incomplètes ou pas forcément super bien mises en forme.

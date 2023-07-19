@@ -177,7 +177,7 @@ Pour les jours de flemme, on se faisait un tableau tout bidon avec 3 colonnes du
 
 Donc pour conclure, je vais finir par un meme qui représentera les sprints
 
-![Ceremonies Everywhere](https://i.imgflip.com/7soauz.jpg
+![Ceremonies Everywhere](/assets/img/meme/agile.jpg
 "img-meme")
 
 

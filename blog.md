@@ -11,7 +11,7 @@ La technique, c'est bien, mais il y a aussi la vie.
 
 Je vous partagerais donc parfois des articles un peu plus différents, moins techniques, plus personnels, des coups de gueule, peut-être même des coups de coeur (qui sait).
 
-![No hobbies](https://i.imgflip.com/7sod69.jpg
+![No hobbies](/assets/img/meme/hobbies.jpg
 "img-meme")
 
 
