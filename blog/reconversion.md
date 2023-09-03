@@ -12,8 +12,8 @@ Quand on lit ça partout, tout le temps, on a tendance à penser que trouver un 
 
 Alors vous vous dites, pourquoi pas moi ?
 
-![img-meme](https://i.imgflip.com/7soc8z.jpg
-"free money")
+![Free money](/assets/img/meme/money.jpg
+"img-meme")
 
 Je vais vous épargner les discours "Quand on veut, on peut. Tout le monde peut y arriver. Si j'ai réussi tout le monde peut le faire". Pourquoi je n'aime pas ce genre de discours ? Parce que je trouve qu'ils donnent une image un peu biaisée du "Tout le monde réussit".
 
@@ -133,7 +133,7 @@ Votre recherche d'emploi pourrait donc s'avérer difficile et démotivante.
 
 Un recruteur a dit à un de mes camarades de formation qu'à 30 ans sans expérience en dev, c'était trop vieux pour être embauché en tant que junior.
 
-> "Il va falloir s'accrocher."
+> "Aïe ! Il faut être déterminé"
 
 Je n'ai pas la recette miracle pour décrocher un job (ce serait trop beau), mais je peux vous donner quelques retours d'expérience.
 

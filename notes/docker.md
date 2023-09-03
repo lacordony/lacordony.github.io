@@ -61,11 +61,11 @@ docker run hello-world
 
 La commande va chercher si l'image existe en local sinon elle va aller la pull sur le Docker Hub.
 
-![docker-run](/assets/img/docker/helloworldocker.png)
+![docker-run](/assets/img/docker/helloworldocker.png "img-code")
 
 Pour ceux qui utilisent Docker Desktop vous allez le voir apparaitre dans votre liste de container.
 
-![docker-run](/assets/img/docker/containerhelloworld.png)
+![docker-run](/assets/img/docker/containerhelloworld.png "img-code")
 
 Avec un "docker run" standard votre conteneur ne va pas rester allumé.
 
@@ -82,7 +82,7 @@ Une fois votre conteneur lancé vous pourrez vous rendre à l'adresse suivante :
 
 Vous voyez dans le docker desktop que cette fois le conteneur n'est pas arrêté.
 
-![docker-run](/assets/img/docker/containergettingstarted.png)
+![docker-run](/assets/img/docker/containergettingstarted.png "img-code")
 
 Si vous n'en avez plus besoin vous pouvez l'arrêter.
 
@@ -118,7 +118,7 @@ docker build -t spring-with-docker-demo .
 ```
 
 Votre image apparaitra sur votre docker desktop :
-![docker-build-spring](/assets/img/docker/imageSpringDemo.png)
+![docker-build-spring](/assets/img/docker/imageSpringDemo.png "img-code")
 
 Pour lancer votre conteneur, exécutez ensuite la commande ci-dessous dans votre terminal : 
 ```
@@ -126,11 +126,11 @@ docker run -dp 8080:8080 spring-with-docker-demo
 ```
 
 Votre conteneur est lancé :
-![docker-run-spring](/assets/img/docker/containerSpringDemo.png)
+![docker-run-spring](/assets/img/docker/containerSpringDemo.png "img-code")
 
 Rendez-vous ensuite à l'adresse localhost:8080 et vous devriez voir le résultat apparaître :
 
-![docker-localhost-spring](/assets/img/docker/ResultSpringHelloWorld.png)
+![docker-localhost-spring](/assets/img/docker/ResultSpringHelloWorld.png "img-code")
 
 Cool, cool, cool !
 
@@ -149,7 +149,7 @@ docker push HUB_USERNAME/spring-with-docker-demo:latest
 Le mot "latest" signifie la version la plus récente et celle qui sera prise par défaut. Vous pouvez tout à faire versionner vos images "spring-with-docker-demo:1.0.0" par exemple, mais ce sera toujours latest qui sera téléchargée par défaut.
 
 Vous pouvez vous connecter ensuite sur le docker hub et voir votre image :
-![docker-hub-spring](/assets/img/docker/dockerHubResultPush.png)
+![docker-hub-spring](/assets/img/docker/dockerHubResultPush.png "img-code")
 
 À noter qu'il existe d'autres registry comme le [Github Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry) qui vous permet de stocker vos images liées à vos repos Github par exemple. On en reparlera sans doute dans une note pour automatiser le déploiement des images avec des Github Actions.
 
@@ -215,7 +215,7 @@ docker-compose up -d
 
 Vos conteneurs sont lancés :
 
-![docker-compose-result](/assets/img/docker/dockerComposeSpringDemo.png)
+![docker-compose-result](/assets/img/docker/dockerComposeSpringDemo.png "img-code")
 
 
 ## En synthèse : les commandes

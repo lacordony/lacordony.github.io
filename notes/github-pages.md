@@ -60,7 +60,7 @@ En synthèse, il faudra :
   
 * Créer un fichier /assets/css/style.scss dans lequel vous ajouterez le CSS du thème via : 
 
-![Github Pages Theme](/assets/img/github-pages/github-pages-theme.svg)
+![Github Pages Theme](/assets/img/github-pages/github-pages-theme.svg "img-code")
 
 Je suis obligée de vous mettre une image sinon ma page interprète la syntaxe Liquid.
 
@@ -117,7 +117,7 @@ Les variables doivent être écrites entre double accolade, appelée aussi moust
 
 Vous en trouverez un exemple dans votre layouts default.html
 
-![Github Pages Content](/assets/img/github-pages/github-pages-content.svg)
+![Github Pages Content](/assets/img/github-pages/github-pages-content.svg "img-code")
 
 Je suis obligée de vous mettre une image sinon ma page interprète la syntaxe Liquid.
 
@@ -129,7 +129,7 @@ Admettons que vous vouliez afficher dans votre menu ou une navbar la liste de vo
 
 Vous allez ajouter une boucle dans votre layout HTML :
 
-![Github Pages Boucle](/assets/img/github-pages/github-pages-for.svg)
+![Github Pages Boucle](/assets/img/github-pages/github-pages-for.svg "img-code")
 
 
 #### Les conditions
@@ -150,7 +150,7 @@ title: "Super titre"
 
 Ensuite dans votre layout vous allez ajouter une condition pour ne filtrer que sur les pages de cette catégorie.
 
-![Github Pages if](/assets/img/github-pages/github-pages-if.svg)
+![Github Pages if](/assets/img/github-pages/github-pages-if.svg "img-code")
 
 ## Ajouter des plugins
 
