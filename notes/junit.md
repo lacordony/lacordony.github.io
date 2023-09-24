@@ -97,20 +97,20 @@ Rendez-vous sur une classe que vous voulez tester (j'ai créé n'importe quoi po
 
 Faites un clic-droit sur le nom de la classe, vous verrez l'option "Generate" qui vous sert aussi pour les Getter/Setter
 
-![generate](/assets/img/junit/generateTU.png "img-code")
+![generate](/assets/img/junit/GenerateTU.png "img-code")
 
 Cliquez sur Generate, vous verrez que l'on vous propose "Test"
 
-![generate-test](/assets/img/junit/generateTest.png "img-code")
+![generate-test](/assets/img/junit/GenerateTest.png "img-code")
 
 Cliquez sur Test, vous verrez les différentes options qui s'offrent à vous
 Vous pouvez cocher si vous souhaitez automatiquement ajouter des Before/After annotations et ensuite sélectionner les méthodes que vous vous voulez tester. Attention les méthodes "private" ne s'afficheront pas car elles ne sont pas accessibles.
 
-![generate-method](/assets/img/junit/generateMethod.png "img-code")
+![generate-method](/assets/img/junit/GenerateMethod.png "img-code")
 
 Cela vous créera une classe de test que vous n'aurez plus qu'à compléter
 
-![generated-class](/assets/img/junit/generatedClass.png "img-code")
+![generated-class](/assets/img/junit/GeneratedClass.png "img-code")
 
 
 # Pour aller plus loin
