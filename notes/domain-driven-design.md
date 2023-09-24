@@ -9,7 +9,7 @@ status: brouillon
 
 L'objectif du DDD est de concevoir une application (et définir une solution technique) la plus pratique possible pour ses utilisateurs.
 
-Pour écrire cette note je me suis basée surtout sur ce cours d'OpenClassrooms : [Appliquer le principe du DDD à votre application](https://openclassrooms.com/fr/courses/5647281-appliquez-le-principe-du-domain-driven-design-a-votre-application)
+Pour écrire cette note, je me suis basée surtout sur ce cours d'OpenClassrooms : [Appliquer le principe du DDD à votre application](https://openclassrooms.com/fr/courses/5647281-appliquez-le-principe-du-domain-driven-design-a-votre-application)
 
 ## Co-construire un modèle de domaine compris par tous
 
@@ -35,7 +35,7 @@ Il est important de poser le plus de questions possibles afin d'avoir une vision
 - Comment vous procédez à l'heure actuelle ? = identifier les processus
 - Avez-vous besoin d'informations pour réaliser une action ? = identifier les pré-requis
 - Est-ce qu'un événement déclenche cette action ? = identifier les déclencheurs d'événements (triggers)
-- Quel est le résultat attendu ? = identifier l'attendu
+- Quel est le résultat attendu ? = identifier l'attendue
 - Que devrait-il se passer si ce n'est pas le résultat attendu ? = identifier l'inattendu
 
 Attention, il est important de respecter la terminologie rapportée par les métiers. En tant que développeur on a tendance à utiliser le terme "utilisateur" pour désigner la personne qui va réaliser l'action, ce n'est pas précis et porte à confusion. En DDD, on se doit de respecter le langage métier pour qu'il soit compris par tous. 
