@@ -4,8 +4,7 @@ permalink: /notes/:basename
 title: "Développer une API REST avec Spring Boot"
 category: notes
 last_updated: "18/11/2023"
-published: true
-status: published
+published: false
 ---
 
 Spring est un Framework Java, tandis que Spring Boot est une extension de Spring qui permet de créer des applications autonomes, auto-configurées et prêtes à l'emploi.
@@ -57,6 +56,21 @@ Vous pourrez choisir :
 
 Une fois que vous avez tout sélectionné, vous pouvez cliquer sur Generate. Le site vous générera un fichier zip prêt à l'emploi que vous pourrez importer directement dans votre IDE.
 
+Votre classe principale sera annotée @SpringBootApplication et contiendra la méthode main.
+
+```
+@SpringBootApplication
+public class DemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoApplication.class, args);
+	}
+
+}
+```
+
+Cette annotation va permettre de configurer automatiquement votre application Spring Boot.
+
 ## Développer le CRUD de son application
 
 ### Le CRUD ?
@@ -88,6 +102,10 @@ public class MyController {
 ```
 
 
+### Les DTO (Data Transfer Object)
+
+Les DTO sont des classes qui vont permettre de transférer des données entre les couches de votre application.
+
 
 
 ### Les requêtes HTTP
@@ -102,12 +120,16 @@ public class MyController {
 
 ### En synthèse
 
-| CRUD | HTTP | API Endpoint | Annotation |
-|------|------|--------------|------------|
-| Create | POST | /api/v1/ | @PostMapping |
-| Read | GET | /api/v1/ | @GetMapping |
-| Update | PUT | /api/v1/ | @PutMapping |
-| Delete | DELETE | /api/v1/ | @DeleteMapping |
+| CRUD   | HTTP   | API Endpoint (URI) | Annotation     |
+|--------|--------|--------------------|----------------|
+| Create | POST   | /api/item          | @PostMapping   |
+| Read   | GET    | /api/item/{id}     | @GetMapping    |
+| Read   | GET    | /api/items         | @GetMapping    |
+| Update | PUT    | /api/item/{id}     | @PutMapping    |
+| Delete | DELETE | /api/item/{id}     | @DeleteMapping |
+
+
+
 
 
 ## Documenter l'API avec Swagger
