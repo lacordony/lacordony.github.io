@@ -4,43 +4,47 @@
     <title>L'univers de Georgia</title>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
-    <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
-
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" media="screen" type="text/css">
     <!-- Meta for social medias -->
     {% seo %}
 </head>
 
 <body>
 <header>
-    <div id="myHeaderContent" class="inner">
-        <a href="{{ site.url | absolute_url }}">
-            <h1 id="myTitle">{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
-        {% endif %}
-        {% if site.github.is_user_page %}
-        <a href="{{ site.github.owner_url }}" class="button"><small>Follow me on</small> GitHub</a>
-        {% endif %}
-    </div>
+    <a href="{{ site.url | absolute_url }}">
+        <img src="{{site.url}}/assets/img/logo-min.jpg" alt="Georgia Logo"/>
+    </a>
+
 </header>
 
-<div id="content-wrapper">
-    <div id="myBodyContent" class="inner clearfix">
-        <section id="main-content">
-            <h1>{{ page.title }}</h1>
-            <p class="last-updated">Dernière modification : {{ page.last_updated }}</p>
-            {{ content }}
-        </section>
+    <div id="myBodyContent">
+            <section id="main-content">
+                <h1>{{ page.title }}</h1>
+                <p class="last-updated">Dernière modification : {{ page.last_updated }}</p>
+                {% if page.category == "notes" or page.category == "blog" %}
+                <div id="summary">
+                    <button id="summaryButton" type="button" onclick="displaySummary()">
+                        <img id="burger" src="{{site.url}}/assets/img/site/menu_FILL0_wght400_GRAD0_opsz24.svg" alt="Burger menu icon"/>
+                        <p id="summaryText">
+                            SOMMAIRE</p>
+                    </button>
+                </div>
+                {% endif %}
+                {{ content }}
+            </section>
         {% include aside.html %}
-    </div>
 </div>
 
 </body>
+<script>
+
+var element = document.getElementById("markdown-toc")
+element.classList.toggle("summaryHidden");
+
+  function displaySummary() {
+  console.log("displaySummary");
+var element = document.getElementById("markdown-toc")
+element.classList.toggle("summaryHidden");
+}
+</script>
 </html>

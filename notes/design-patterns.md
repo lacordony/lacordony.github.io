@@ -6,6 +6,9 @@ category: notes
 published: false
 ---
 
+* TOC
+{:toc}
+
 # Design Patterns
 
 See you soon

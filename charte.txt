@@ -1,0 +1,36 @@
+Light Brown
+#BF8158
+
+Dark Brown
+#744032
+
+Blonde
+#F7DEA3
+
+Skin
+#E7B88F
+
+Linen
+#F6EEE7
+
+Seashell
+#FCF5EF
+
+
+Default
+#FDFBF4
+
+Logo dark brown
+#3B2915
+
+Logo light brown
+#A66A34
+
+Logo light beige
+#CE9F71
+
+Logo background color
+#F9FAF4
+
+Blue code
+#00023D

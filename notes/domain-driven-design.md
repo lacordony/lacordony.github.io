@@ -7,6 +7,9 @@ last_updated: "21/01/2023"
 status: brouillon
 ---
 
+* TOC
+{:toc}
+
 L'objectif du DDD est de concevoir une application (et définir une solution technique) la plus pratique possible pour ses utilisateurs.
 
 Pour écrire cette note je me suis basée surtout sur ce cours d'OpenClassrooms : [Appliquer le principe du DDD à votre application](https://openclassrooms.com/fr/courses/5647281-appliquez-le-principe-du-domain-driven-design-a-votre-application)
