@@ -7,6 +7,10 @@ last_updated: "21/01/2023"
 status: published
 ---
 
+
+* TOC
+{:toc}
+
 Vous débutez, vous voulez quelque chose de simple à mettre en ligne comme un blog ou un petit CV en ligne.
 
 Vous pouvez créer une Github Pages, c'est gratuit, facile et hébergé par Github.

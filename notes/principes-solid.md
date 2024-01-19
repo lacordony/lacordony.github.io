@@ -7,6 +7,9 @@ last_updated: "15/12/2022"
 status: published
 ---
 
+* TOC 
+{:toc}
+
 Pour écrire cette note je me suis basée principalement sur ce cours : [Udemy - SOLID Principles: Introducing Software Architecture & Design](https://www.udemy.com/course/solid-design/learn/lecture/15983704#overview)
 
 Les principes SOLID vous permettront d'avoir un logiciel bien conçu et robuste.

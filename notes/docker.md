@@ -7,6 +7,9 @@ status: published
 last_updated: "02/04/2023"
 ---
 
+* TOC
+{:toc}
+
 
 En entreprise on voit que de plus en plus de choses sont automatisées avec des chaînes devops, notamment les chaînes de déploiement. 
 

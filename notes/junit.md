@@ -7,6 +7,9 @@ last_updated: "03/09/2023"
 status: published
 ---
 
+* TOC
+{:toc}
+
 On entend beaucoup parler de Test Driven Development (TDD) de nos jours. En pratique, sur mes projets, on était plutôt en mode NTDD (No Test Driven Development). C'est à dire qu'on faisait des tests unitaires si on avait le temps, comprendre rarement vu les deadlines qu'on nous impose. Puis un jour ils ont mis en place des règles de qualité avec Sonar imposant un taux de couverture minimum de 50%. Imaginez le drame. On ne pouvait plus livrer aucune feature à cause de ce blocage.
 
 J'ai passé au moins 3 semaines (ok pas à temps plein mais quand même) à couvrir 1 an de code pour atteindre le taux de couverture. Parce que, en voulant atteindre ce taux de couverture, j'ai réalisé que beaucoup de méthodes n'étaient pas ou pas facilement testables (trop complexes, trop de dépendances, trop de void...). J'ai donc du faire beaucoup de refactoring pour simplifier et pouvoir tester plus facilement des petites portions de code et isoler ce qui était moins pertinent. 

@@ -7,6 +7,10 @@ status: published
 last_updated: "01/04/2023"
 ---
 
+* TOC
+{:toc}
+
+
 Cette note a pour objectif d'expliquer comment déployer un dockerfile contenant une application Spring Boot sur [fly.io](https://fly.io/)
 
 ## Installer Fly sur Windows

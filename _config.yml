@@ -12,13 +12,10 @@ twitter:
   card: summary_large_image
 
 # Build settings
-remote_theme: pages-themes/architect@v0.2.0
-show_downloads: false
 sass:
     sass_dir: _sass
     style: compressed
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jemoji
   - jekyll-seo-tag
