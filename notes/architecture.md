@@ -4,7 +4,11 @@ permalink: /notes/:basename
 title: "Architecture logicielle"
 status: brouillon
 last_updated: "03/04/2023"
+published: false
 ---
+
+* TOC
+{:toc}
 
 Un jour, j'ai eu le "malheur" de dire que j'aimerais bien en apprendre un peu plus sur l'architecture technique/logicielle pour mon évolution de carrière. Entre ce que j'imaginais dans ma tête et ce qui a été compris par l'entreprise, ça a été deux mondes très différents. Je me suis retrouvée à suivre des formations sur la rédaction de solutions d'architecture pour des appels d'offres. Là où je demandais à progresser sur des compétences techniques plus pointues, on m'a envoyé faire du powerpoint et de la vente. 
 
