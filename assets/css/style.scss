@@ -218,34 +218,24 @@ font-size: 1em;
 }
 
 
-
-
 pre {
+    padding: 0.5em;
+    background-color: #FCF5EF;
+    color: #9ddcff;
+}
 
-    border-radius: 15px;
-padding: 1em;
-    margin-bottom: 30px;
-  overflow: auto;
-  text-shadow: none;
+
+pre.highlight {
+
   border: solid 1px #00023D;
 
     background-color: #00023D;
-    border-radius: 15px;
-}
-
-pre code {
-padding: 0;
-
-    color: #9ddcff;
-  border: none;
 
 
 }
 
-code {
-    color: #9ddcff;
-  border: none;
-}
+
+
 
 .keywords {
     font-weight: bold;

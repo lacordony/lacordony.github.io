@@ -6,6 +6,9 @@ title: "Passion or not passion ?"
 last_updated: "29/03/2023"
 ---
 
+* TOC
+{:toc}
+
 S'il y a bien une chose qui me chiffonne dans l'informatique, c'est cette impression d'être dans une époque médiévale où il faut prêter allégeance au code et être prêt à mourir pour lui.
 
 ![Side projects terminator](/assets/img/meme/projects.jpg

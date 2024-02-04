@@ -7,6 +7,9 @@ status: published
 last_updated: "03/04/2023"
 ---
 
+* TOC
+{:toc}
+
 L'écologie, l'environnement, ça a toujours été des sujets qui me tenaient à cœur. De plus en plus ces dernières années avec le dérèglement climatique qui s'accélère, les rapports du GIEC qui sont très largement ignorés par nos gouvernements etc... 
 
 Chaque jour je me dis : comment, dans mon quotidien, je peux contribuer pour limiter mon impact carbone sur la planète ?

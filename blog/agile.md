@@ -7,7 +7,13 @@ last_updated: "01/04/2023"
 status: published
 ---
 
+* TOC
+{:toc}
+
 J'avais envie de faire un petit REX un peu second degré sur les méthodes agiles.
+
+![Ceremonies Everywhere](/assets/img/meme/agile.jpg
+"img-meme")
 
 J'avais vu un tweet d'un gars qui disait refuser toutes les offres d'emploi qui mentionnaient les méthodes agiles. Il avait eu une mauvaise expérience sur le sujet et ne voulait plus travailler comme ça.
 
@@ -175,10 +181,6 @@ Si vous voulez des exemples de mini-jeux pour vous aider à démarrer : [les 3 p
 
 Pour les jours de flemme, on se faisait un tableau tout bidon avec 3 colonnes du style : "encore, peut mieux faire, stop" et chacun mettait un gif dans chaque colonne pour illustrer son mood. C'était assez marrant.
 
-Donc pour conclure, je vais finir par un meme qui représentera les sprints
-
-![Ceremonies Everywhere](/assets/img/meme/agile.jpg
-"img-meme")
 
 
 
