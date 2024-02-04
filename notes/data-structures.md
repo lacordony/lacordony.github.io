@@ -2,15 +2,19 @@
 layout: default
 permalink: /notes/:basename
 title: "Data structures"
-category: notes
 published: false
+last_updated: "04/02/2024"
 ---
+
+
+* TOC
+{:toc}
 
 J'ai une angoisse dans la vie : les tests techniques. Les codingame, les leetcode, on m'a pas appris à farmer ça en formation. On avait fait un peu d'initiation à l'algorithmie ça m'avait fait chialer.
 
-J'ai constaté que dans ces exos, c'était un peu toujours les mêmes concepts qui revenaient : les data structures.
+En revanche, j'ai constaté que dans ces exos, c'était un peu toujours les mêmes concepts qui revenaient : les data structures.
 
-J'ai plus le choix je suis obligée de repartir de zéro et tout revoir pour m'en sortir et pas passer 50min sur la lecture d'un énoncé leetcode et me sortir de cette frustration de : "si vous savez pas faire ça, vous êtes un(e) mauvais(e) développeur(se)" pour ne pas citer le TiboInShape du dev.
+Alors je me suis dis que j'avais plus le choix, je dois repartir de zéro et tout revoir pour me sortir de cette frustration du : "si vous ne savez pas faire ça, vous êtes un(e) mauvais(e) développeur(se)" pour ne pas citer le TiboInShape du dev.
 
 Pour m'aider, j'ai choisi le cours codecademy : [Pass the Technical Interview with Java](https://www.codecademy.com/learn/paths/pass-the-technical-interview-with-java)
 
@@ -42,17 +46,36 @@ Elle se différencie des listes (Array, List) dans le sens où les éléments n'
 
 La liste chaînée commence par un noeud de tête (head) qui est le premier noeud de la liste. Chaque noeud est relié au suivant par un lien (link) qui est une référence vers le noeud suivant. Elle se termine par un noeud de fin (tail) qui est le dernier noeud de la liste.
 
+
 ```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+    graph LR;
+        subgraph Head
+        ANode(Node A)
+        end
+        subgraph Tail
+        CNode(Node C)
+        end
+        ANode --> BNode(Node B) --> CNode
 ```
 
 
 ## Doubly Linked Lists
-While a singly linked list consists of nodes with links from the one node to the next, a doubly linked list also has a link to the node before it. These previous links, along with the added tail property, allow you to iterate backward through the list as easily as you could iterate forward through the singly linked list.
+
+La double liste chaînée, c'est la même chose, mais avec un niveau de difficulté en plus. Chaque noeud un lien vers le noeud suivant et le noeud précédent dans la liste.
+
+```mermaid
+    graph RL;
+        subgraph Head
+        ANode(Node A)
+        end
+        subgraph Tail
+        CNode(Node C)
+        end
+        ANode --> BNode(Node B)
+        BNode --> ANode
+        BNode --> CNode
+        CNode --> BNode
+```
 
 ## Queues
 A queue is a linear collection of nodes that exclusively adds (enqueues) nodes to the tail, and removes (dequeues) nodes from the head of the queue. They can be implemented using different underlying data structures, but one of the more common methods is to use a singly linked list, which is what you will be using for your Queue class. Think of the queue data structure as an actual queue, or line, in a grocery store. The person at the front gets to leave the line first, and every person who joins the line has to join in the back.
