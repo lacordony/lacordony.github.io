@@ -1,9 +1,11 @@
 ---
-layout: default
+layout: NoteLayout
 permalink: /notes/:basename
-title: "Data structures"
-published: false
-last_updated: "04/02/2024"
+title: "Data structures avec Java"
+status: published
+category: notes
+last_updated: "06/02/2024"
+activeGraph: true
 ---
 
 
@@ -46,7 +48,6 @@ Elle se différencie des listes (Array, List) dans le sens où les éléments n'
 
 La liste chaînée commence par un noeud de tête (head) qui est le premier noeud de la liste. Chaque noeud est relié au suivant par un lien (link) qui est une référence vers le noeud suivant. Elle se termine par un noeud de fin (tail) qui est le dernier noeud de la liste.
 
-
 ```mermaid
     graph LR;
         subgraph Head
@@ -56,6 +57,62 @@ La liste chaînée commence par un noeud de tête (head) qui est le premier noeu
         CNode(Node C)
         end
         ANode --> BNode(Node B) --> CNode
+```
+
+Concrètement, on aurait une classe MySingleNode qui contiendrait une valeur et un lien vers le noeud suivant.
+
+```java
+public class MySingleNode {
+
+    // Valeur du noeud
+    public String data;
+    
+    // Noeud suivant dans la liste
+    private MySingleNode next;
+    
+    // Constructeur
+    // Getters et Setters
+}
+```
+
+Et une classe MySingleLinkedList qui contiendrait un lien vers le noeud de tête.
+
+```java
+public class MySingleLinkedList {
+
+    // Noeud de tête
+    public MySingleNode head;
+
+    // Constructeur
+    public MySingleLinkedList() {
+        this.head = null;
+    }
+
+    // Ajouter un nouveau noeud en tête de liste
+    public void addToHead(String data) {
+        // On va créer un nouveau noeud de tête qui va remplacer le précédent
+        MySingleNode newHead = new MySingleNode(data);
+        MySingleNode currentHead = this.head;
+        this.head = newHead;
+        if (currentHead != null) {
+            this.head.setNextNode(currentHead);
+        }
+    }
+
+    // Ajouter un nouveau noeud en fin de liste
+    public void addToTail(String data) {
+        MySingleNode tail = this.head;
+        if (tail == null) {
+            this.head = new MySingleNode(data);
+        } else {
+            // On parcourt les noeuds jusqu'au dernier, si le noeud suivant est null, c'est qu'il s'agit du dernier de la liste
+            while (tail.getNextNode() != null) {
+                tail = tail.getNextNode();
+            }
+            tail.setNextNode(new MySingleNode(data));
+        }
+    }
+}
 ```
 
 
@@ -76,6 +133,80 @@ La double liste chaînée, c'est la même chose, mais avec un niveau de difficul
         BNode --> CNode
         CNode --> BNode
 ```
+
+Concrètement, on aurait une classe MyDoubleNode qui contiendrait une valeur, un lien vers le noeud suivant et un lien vers le noeud précédent.
+
+```java
+public class MyDoubleNode {
+
+    // Valeur du noeud
+    public String data;
+    
+    // Noeud suivant dans la liste
+    private MyDoubleNode next;
+    
+    // Noeud précédent dans la liste
+    private MyDoubleNode previous;
+    
+    // Constructeur
+    // Getters et Setters
+}
+```
+
+Et une classe MyDoubleLinkedList qui contiendrait un lien vers le noeud de tête et un lien vers le noeud de fin.
+
+```java
+public class MyDoubleLinkedList {
+
+    // Noeud de tête
+    public MyDoubleNode head;
+
+    // Noeud de fin
+    public MyDoubleNode tail;
+
+    // Constructeur
+    public MyDoubleLinkedList() {
+        this.head = null;
+        this.tail = null;
+    }
+    
+    // Ajouter un nouveau noeud en tête de liste
+    public void addToHead(String data) {
+        MyDoubleNode newHead = new MyDoubleNode(data);
+        MyDoubleNode currentHead = this.head;
+
+        if (currentHead != null) {
+            // Il ne faut pas oublier de mettre à jour les liens entre les noeuds
+            currentHead.setPreviousNode(newHead);
+            newHead.setNextNode(currentHead);
+        }
+        this.head = newHead;
+
+        if (this.tail == null) {
+            this.tail = newHead;
+        }
+    }
+    
+    // Ajouter un nouveau noeud en fin de liste
+    public void addToTail(String data) {
+        MyDoubleNode newTail = new MyDoubleNode(data);
+        MyDoubleNode currentTail = this.tail;
+
+        if (currentTail != null) {
+            // Il ne faut pas oublier de mettre à jour les liens entre les noeuds
+            currentTail.setNextNode(newTail);
+            newTail.setPreviousNode(currentTail);
+        }
+        this.tail = newTail;
+
+        if (this.head == null) {
+            this.head = newTail;
+        }
+    }
+}
+
+```
+
 
 ## Queues
 A queue is a linear collection of nodes that exclusively adds (enqueues) nodes to the tail, and removes (dequeues) nodes from the head of the queue. They can be implemented using different underlying data structures, but one of the more common methods is to use a singly linked list, which is what you will be using for your Queue class. Think of the queue data structure as an actual queue, or line, in a grocery store. The person at the front gets to leave the line first, and every person who joins the line has to join in the back.
