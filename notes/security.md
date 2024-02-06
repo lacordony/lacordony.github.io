@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: NoteLayout
 permalink: /notes/:basename
 title: "La sécurité en Java"
 category: notes

@@ -1,6 +1,9 @@
 Light Brown
 #BF8158
 
+// Contraste
+#9B613B
+
 Dark Brown
 #744032
 

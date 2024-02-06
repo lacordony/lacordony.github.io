@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: NoteLayout
 permalink: /notes/:basename
 category: notes
 title: "Maîtriser la qualité du code avec Sonarqube"

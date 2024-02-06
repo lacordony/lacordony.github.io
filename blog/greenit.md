@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: BlogLayout
 permalink: /blog/:basename
 category: blog
 title: "Le Green IT on s'y met quand ?"
