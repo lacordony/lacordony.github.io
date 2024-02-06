@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'fr-FR' }}">
+<head>
+    <title>L'univers de Georgia</title>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" media="screen" type="text/css">
+    <!-- Meta for social medias -->
+    {% seo %}
+
+</head>
+
+<body>
+<header>
+    <a href="{{ site.url | absolute_url }}">
+        <img src="{{site.url}}/assets/img/logo-min.jpg" alt="Georgia Logo"/>
+    </a>
+
+</header>
+
+<div id="myBodyContent">
+    <section id="main-content">
+        <h1>{{ page.title }}</h1>
+        <p class="last-updated">Dernière modification : {{ page.last_updated }}</p>
+        {% if page.category == "notes" or page.category == "blog" %}
+        <div id="summary">
+            <button id="summaryButton" type="button" onclick="displaySummary()">
+                <img id="burger" src="{{site.url}}/assets/img/site/menu_FILL0_wght400_GRAD0_opsz24.svg" alt="Burger menu icon"/>
+                <p id="summaryText">
+                    SOMMAIRE</p>
+            </button>
+        </div>
+        {% endif %}
+        {{ content }}
+    </section>
+    {% include aside.html %}
+</div>
+
+</body>
+<script>
+    var element = document.getElementById("markdown-toc")
+    element.classList.toggle("summaryHidden");
+
+      function displaySummary() {
+      console.log("displaySummary");
+    var element = document.getElementById("markdown-toc")
+    element.classList.toggle("summaryHidden");
+    }
+
+</script>
+
+</html>

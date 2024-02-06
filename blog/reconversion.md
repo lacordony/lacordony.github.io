@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: BlogLayout
 permalink: /blog/:basename
 category: blog
 title: "La reconversion dans le dev"

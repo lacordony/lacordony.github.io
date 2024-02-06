@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: NoteLayout
 permalink: /notes/:basename
 category: notes
 title: "Créer son blog avec Github Pages"

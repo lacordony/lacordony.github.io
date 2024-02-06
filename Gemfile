@@ -33,9 +33,9 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # Using emojis
 gem 'jemoji'
-gem "webrick", "~> 1.7"
 
 # Using SEO
 gem 'jekyll-seo-tag'
 
-
+# Mandatory for jekyll compile
+gem "webrick", "~> 1.7"

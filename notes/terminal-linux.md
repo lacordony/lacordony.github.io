@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: NoteLayout
 permalink: /notes/:basename
 category: notes
 title: "Terminal et commandes Linux"

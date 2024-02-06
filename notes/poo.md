@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: NoteLayout
 permalink: /notes/:basename
 title: "Programmation orientée objet en Java"
 category: notes
