@@ -7,6 +7,9 @@ category: blog
 published: false
 ---
 
+* TOC
+{:toc}
+
 
 Je fais face chaque jour à des offres d'emploi qui demandent des connaissances techniques exponentielles, je me retrouve face à des tests techniques que je n'arrive pas à faire faute de pratique et parce que ça ne ressemble pas à ce que je fais au quotidien.
 

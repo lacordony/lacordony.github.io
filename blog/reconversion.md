@@ -6,6 +6,9 @@ title: "La reconversion dans le dev"
 last_updated: "29/03/2023"
 ---
 
+* TOC
+{:toc}
+
 Vous l'entendez depuis des années : "le secteur informatique est en pénurie" ou encore "il n'y a pas assez de femmes dans les filières scientifiques".
 
 Quand on lit ça partout, tout le temps, on a tendance à penser que trouver un job dans un contexte aussi "ouvert" va être facile.
