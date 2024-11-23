@@ -39,7 +39,7 @@ Pour pouvoir lancer notre application, il faut en pré-requis avoir un Dockerfil
 
 Si vous ne savez pas comment générer votre Dockerfile je vous invite à revoir la note sur Docker.
 
-Mais pas de panique, nous allons repartir de notre petit [projet Spring de demo](https://github.com/DevGeorgia/spring-with-docker-demo) qui contient déjà un Dockerfile.
+Mais pas de panique, nous allons repartir de notre petit [projet Spring de demo](https://github.com/lacordony/spring-with-docker-demo) qui contient déjà un Dockerfile.
 
 Pour vous entraîner vous pouvez cloner ce repo.
 

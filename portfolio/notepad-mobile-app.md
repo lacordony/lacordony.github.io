@@ -20,7 +20,7 @@ javaScript, jQuery, cordova
 
 ### Code
 
-Source code : [Link](https://github.com/DevGeorgia/BlocNotes)
+Source code : [Link](https://github.com/lacordony/BlocNotes)
 
 ## Screenshots
 

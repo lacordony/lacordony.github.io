@@ -52,7 +52,7 @@ Cela vous permet de voir à quoi vous attendre et vérifier que ce métier peut-
 
 ### Quel temps suis-je prêt à consacrer ?
 
-Vous allez me dire : "bah Georgia, si je me reconvertis, c'est que je compte y consacrer du temps".
+Vous allez me dire : "bah Laetitia, si je me reconvertis, c'est que je compte y consacrer du temps".
 
 Alors oui, ça semble évident, sauf que dans le dev selon votre rapidité d'apprentissage, vous allez devoir consacrer plus ou moins de temps sur certains sujets. J'entends par là que les heures passées en formation ne suffiront pas. Vous aurez peut-être besoin de vous investir le soir ou le week-end pour approfondir des sujets que vous n'avez pas compris. 
 
@@ -172,7 +172,7 @@ Vous aurez sans doute des mini-projets à faire pendant votre formation, ne les 
 
 Selon la stack que vous allez choisir, le visuel de votre portfolio sera différent. Si vous voulez vous orienter vers du back-end ce sera plus difficile de faire un site web bling bling avec un super design. L'essentiel n'est pas d'avoir des paillettes partout, c'est de pouvoir montrer ce que vous savez faire. 
 
-Moi qui ne suis pas très douée avec le CSS, je m'étais contentée d'une petite [Github Pages](https://pages.github.com/) présentant les projets que j'avais développé. Je l'ai complètement refaite depuis pour faire ce site et à la place j'ai créé un petit [template de présentation](https://github.com/DevGeorgia/visual-identity) en mode CV que vous pouvez réutiliser/customiser à votre guise (par contre c'est du Spring, je fais pas de JS).
+Moi qui ne suis pas très douée avec le CSS, je m'étais contentée d'une petite [Github Pages](https://pages.github.com/) présentant les projets que j'avais développé. Je l'ai complètement refaite depuis pour faire ce site et à la place j'ai créé un petit [template de présentation](https://github.com/lacordony/visual-identity) en mode CV que vous pouvez réutiliser/customiser à votre guise (par contre c'est du Spring, je fais pas de JS).
 
 Ce qui me semble important, c'est que votre portfolio reflète le besoin ou la problématique à laquelle vous avez voulu répondre et comment vous y avez répondu. Vous pouvez y ajouter des captures d'écran, des vidéos de démo, ou encore mieux le lien vers le site web si vous avez pu le déployer.
 

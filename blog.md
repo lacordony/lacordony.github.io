@@ -2,7 +2,7 @@
 layout: default
 permalink: /:basename
 last_updated: "18/02/2023"
-title: "LE BLOG DE GEORGIA"
+title: "LE BLOG DE LA CORDONIE"
 ---
 
 La technique, c'est bien, mais il y a aussi la vie.
