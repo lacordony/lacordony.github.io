@@ -2,7 +2,7 @@
 layout: default
 permalink: /:basename
 last_updated: "18/02/2023"
-title: "LES NOTES DE GEORGIA"
+title: "LES NOTES EN CORDONIE"
 ---
 
 L'objectif serait d'avoir des petites fiches thématiques à relire facilement pour se rafraichir la mémoire ou préparer un entretien par exemple.
@@ -17,7 +17,7 @@ Par exemple, je n'avais pas entendu parler de <span class="keywords">Craftmanshi
 
 Tout ça pour dire qu'il y a beaucoup de choses à assimiler et qu'à un moment donné on n'est pas des ordinateurs, il faut trier, synthétiser, savoir retenir l'essentiel.
 
-Et c'est ainsi que sont nées, les notes de Georgia !
+Et c'est ainsi que sont nées, les notes en Cordonie !
 
 Vous retrouverez dans le menu de droite la liste des notes disponibles. :arrow_right:
 

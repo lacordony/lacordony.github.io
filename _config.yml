@@ -1,15 +1,10 @@
-title: L'univers de Georgia
+title: La Cordonie
 description: >- # this means to ignore newlines until "baseurl:"
   Une page dev & chill
 baseurl: ""
-url: "https://devgeorgia.github.io"
-github_username:  DevGeorgia
+url: "https://lacordony.github.io"
+github_username: lacordony
 locale: fr_FR
-
-## SEO
-twitter:
-  username: DevGeorgia
-  card: summary_large_image
 
 # Build settings
 sass:

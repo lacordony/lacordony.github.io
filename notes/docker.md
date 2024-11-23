@@ -98,7 +98,7 @@ Si vous voulez héberger par exemple une base de données, vous devrez utiliser 
 
 ## Créer son premier dockerfile 
 
-Pour cette partie, je vais partir d'un projet basique [Spring Boot - Hello World](https://github.com/DevGeorgia/spring-with-docker-demo) que j'ai créé pour le test. On va se baser sur le Dockerfile d'exemple sur la [doc Spring](https://spring.io/guides/topicals/spring-boot-docker/).
+Pour cette partie, je vais partir d'un projet basique [Spring Boot - Hello World](https://github.com/lacordony/spring-with-docker-demo) que j'ai créé pour le test. On va se baser sur le Dockerfile d'exemple sur la [doc Spring](https://spring.io/guides/topicals/spring-boot-docker/).
 
 Vous pouvez cloner le projet pour tester, j'ai déjà créé un fichier Dockerfile à la racine :
 ```
@@ -174,7 +174,7 @@ Pour cela, nous allons créer un fichier docker-compose.yml pour orchestrer nos 
 
 Ce qu'il faut retenir c'est que ce fichier contient votre stack, et que cette stack est composée d'un ensemble de services (les différents conteneurs).
 
-Rendez-vous sur la branche "docker-compose" du [repo de Demo]() pour utiliser le fichier déjà prêt (remplacez HUB_USERNAME si vous avez push l'image sinon vous pouvez utiliser mon pseudo DevGeorgia)
+Rendez-vous sur la branche "docker-compose" du [repo de Demo]() pour utiliser le fichier déjà prêt (remplacez HUB_USERNAME si vous avez push l'image sinon vous pouvez utiliser mon pseudo lacordony)
 
 ```
 version: '3.1'
